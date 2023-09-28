@@ -26,9 +26,22 @@ const rancidTomatillos = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>{`'Rancid Tomatillos' is a movie viewing application, not to be confused with Rotten Tomatoes, or Netflix, or IMDB. This is our first project using React.js! It's even better! On the main page of our application a user can view all movies with their movie poster, title, and tomatillo rating of excellence. The user can also search by movie title and the page will auto update with movies that match the criteria. If a user wants to view additional details about the movie, they can click on the movie and will be taken to a movie detail page with movie trailers to swipe through, overview, genres, release date, and runtime. To exit and go back home, just click the X button in the top corner. Happy movie browsing!`}</p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <p>{`Rancid Tomatillos' is a movie viewing application, not to be confused with Rotten Tomatoes, or Netflix, or IMDB. This is our first project using React.js! It's even better! On the main page of our application a user can view all movies with their movie poster, title, and tomatillo rating of excellence. The user can also search by movie title and the page will auto update with movies that match the criteria. If a user wants to view additional details about the movie, they can click on the movie and will be taken to a movie detail page with movie trailers to swipe through, overview, genres, release date, and runtime. To exit and go back home, just click the X button in the top corner. Happy movie browsing!`}</p>
+
+          <a
+            href="https://github.com/alinix1/rancid-tomatillos"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+          </a>
+          <a
+            href="https://rancid-tomatillos-paired.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4">Demo</button>
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">

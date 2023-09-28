@@ -1,5 +1,6 @@
 import logo from '../assets/logo.png';
 import turing from '../assets/turing.png';
+// import backgroundImg from '../assets/background.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai';

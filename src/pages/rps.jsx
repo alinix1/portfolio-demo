@@ -27,8 +27,20 @@ const beats4devs = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>{`Rock, Paper, Scissors is a web application that allows users to play the game of Rock, Paper, Scissors virtually against a computer. The classic game has the following rules: rock crushes scissors >> scissors cuts paper >> paper covers rock. The difficult option includes lizard and spock for additional challenges and strategies.`}</p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <a
+            href="https://github.com/alinix1/Rock-Paper-Scissors"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+          </a>
+          <a
+            href="https://rock-paper-scissors-sigma-eight.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4">Demo</button>
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">

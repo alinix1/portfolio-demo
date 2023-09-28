@@ -42,7 +42,7 @@ const Main = () => {
             TypeScript, Next.js, and TailwindCSS. I have a master&#39;s degree
             in Public Health and a concentration in biostatistics.
           </p>
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+          <div className="flex items-center justify-between max-w-[350px] m-auto py-4">
             <a
               href="https://www.linkedin.com/in/ali-nix-38b9b9126/"
               target="_blank"

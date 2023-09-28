@@ -17,7 +17,7 @@ const beats4devs = () => {
             alt="/"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Rancid Tomatillos</h2>
+            <h2 className="py-2">Beats 4 Devs</h2>
             <h3>React JS</h3>
           </div>
         </div>
@@ -26,9 +26,22 @@ const beats4devs = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>{`'Rancid Tomatillos' is a movie viewing application, not to be confused with Rotten Tomatoes, or Netflix, or IMDB. This is our first project using React.js! It's even better! On the main page of our application a user can view all movies with their movie poster, title, and tomatillo rating of excellence. The user can also search by movie title and the page will auto update with movies that match the criteria. If a user wants to view additional details about the movie, they can click on the movie and will be taken to a movie detail page with movie trailers to swipe through, overview, genres, release date, and runtime. To exit and go back home, just click the X button in the top corner. Happy movie browsing!`}</p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <p>{`This is a web application built to provide a particular selection of music to facilitate focus while at work. It was created for the Turing School of Software and Design's Module 3 final showcase project. The goal was to apply the new technologies learned and work within constraints to deliver a product for a niche audience, which helps solve a unique problem.`}</p>
+
+          <a
+            href="https://github.com/alinix1/showcase-project-fe"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+          </a>
+          <a
+            href="https://showcase-project-fe.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4">Demo</button>
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
@@ -48,7 +61,15 @@ const beats4devs = () => {
               </p>
               <p className="text-gray-700 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Vercel
+                Redux
+              </p>
+              <p className="text-gray-700 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Express
+              </p>
+              <p className="text-gray-700 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Heroku
               </p>
             </div>
           </div>

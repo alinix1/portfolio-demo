@@ -27,8 +27,20 @@ const equilibrium = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>{`This web application provides a list of therapist cards with additional information/details along with mental health resources to adults with limited financial means. It was created with both a front-end and back-end team of Turing students utilizing React framework, Ruby on Rails, and GraphQL.`}</p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <a
+            href="https://github.com/IOTNBO-Capstone/Equilibrium-FE"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+          </a>
+          <a
+            href="https://equilibrium-iotnbo.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4">Demo</button>
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
