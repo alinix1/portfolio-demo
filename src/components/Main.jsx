@@ -1,5 +1,6 @@
 import React from 'react';
 import turing from '../assets/turing.png';
+import photo from '../assets/photo.png';
 import Link from 'next/link';
 import Image from 'next/image';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
@@ -34,7 +35,9 @@ const Main = () => {
           <h1 className="py-4 text-gray-700">
             Hi, I&#39;m <span className="text-[#272A21]"> Ali</span>
           </h1>
-          <h1 className="py-2 text-gray-700">A Front-End Web Developer</h1>
+          <h1 className="py-2 text-10xl font-bold bg-gradient-to-r from-[#491c13] via-[#FBF8F6] to-[#0F1612] text-transparent bg-clip-text">
+            A Front-End Web Developer
+          </h1>
           <p className="py-4 text-gray-800 max-w-[70%] m-auto">
             I&#39;m a front-end web developer who enjoys building and designing
             exceptional digital experiences. Currently, I&#39;m focused on
@@ -78,6 +81,17 @@ const Main = () => {
             <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <HiMoon />
             </div>
+          </div>
+        </div>
+        <div className="relative">
+          <div
+            className="mt-10 ml-20"
+            style={{
+              borderRadius: '50%',
+              overflow: 'hidden',
+            }}
+          >
+            <Image src={photo} alt="photo of Ali" width="1300" height="1300" />
           </div>
         </div>
       </div>
