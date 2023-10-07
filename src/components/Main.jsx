@@ -1,6 +1,7 @@
 import React from 'react';
 import turing from '../assets/turing.png';
 import photo from '../assets/photo.png';
+import background from '../assets/background1.png';
 import Link from 'next/link';
 import Image from 'next/image';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
@@ -85,7 +86,7 @@ const Main = () => {
         </div>
         <div className="relative">
           <div
-            className="mt-10 ml-20"
+            className="mt-10 ml-20 absolute z-10 flex items-center justify-center"
             style={{
               borderRadius: '50%',
               overflow: 'hidden',
@@ -93,6 +94,13 @@ const Main = () => {
           >
             <Image src={photo} alt="photo of Ali" width="1300" height="1300" />
           </div>
+          <Image
+            className="z-0 rounded-xl opacity-2"
+            src={background}
+            alt="photo of trees/plants"
+            width="1300"
+            height="1300"
+          />
         </div>
       </div>
     </div>
