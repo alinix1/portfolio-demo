@@ -11,7 +11,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-[#A96D47] text-[#1f2937] tracking-wide;
+    @apply bg-[#A96D47] text-[#1f2937] tracking-wide dark:bg-gray-900 dark:text-slate-300;
   }
 
   h1,
@@ -38,4 +38,26 @@ html {
   button {
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#272A21] to-[#A7AF99] text-white;
   }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.animate-moveInRight {
+  animation-name: moveInRight;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
 }

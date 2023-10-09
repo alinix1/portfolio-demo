@@ -7,12 +7,12 @@ const About = () => {
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
-          <p className="uppercase text-xl tracking-widest text-[#272A21]">
+          <p className="uppercase text-xl tracking-widest text-[#272A21] dark:text-slate-300">
             About
           </p>
           <h2 className="py-4">Who I am</h2>
-          <p className="py-2 text-gray-800">{`// I ultimately want to work in either med tech or green tech`}</p>
-          <p className="py-2 text-gray-800">
+          <p className="py-2 text-gray-800 dark:text-slate-300">{`// I ultimately want to work in either med tech or green tech`}</p>
+          <p className="py-2 text-gray-800 dark:text-slate-300">
             I recently graduated from the Front End Engineering program at the
             Turing School of Software & Design. While at Turing, I learned about
             agile workflow and methodologies, Object Oriented Programming using
@@ -28,12 +28,12 @@ const About = () => {
             I have deepened my understanding of React Hooks, and unit testing,
             Python, and SQL. I recently earned a certificate in AWS!
           </p>
-          <p className="py-2 text-gray-800">
+          <p className="py-2 text-gray-800 dark:text-slate-300">
             The difference between a successful person and others is not a lack
             of strength, not a lack of knowledge, but rather a lack in will. -
             Vince Lombardi Jr.
           </p>
-          <p className="py-2 text-gray-800">
+          <p className="py-2 text-gray-800 dark:text-slate-300">
             Failure will never overtake me if my determination to succeed is
             strong enough. - Og Mandino.
           </p>

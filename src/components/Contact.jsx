@@ -11,12 +11,12 @@ const Contact = () => {
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
-        <p className="text-xl tracking-widest uppercase text-[#272A21]">
+        <p className="text-xl tracking-widest uppercase text-[#272A21] dark:text-slate-300">
           Contact
         </p>
         <h2 className="py-4">Get In Touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-600 rounded-xl p-4">
+          <div className="col-span-3 lg:col-span-4 w-full h-full shadow-xl shadow-gray-600 rounded-xl p-4">
             <div className="lg:p-4 h-full ">
               <div>
                 <Image
@@ -27,8 +27,8 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className="py-2">Ali Nix</h2>
-                <p>Front-End Developer</p>
-                <p className="py-4">
+                <p className="uppercase">Front-End Developer</p>
+                <p className="py-4 block text-2xl font-bold tracking-widest">
                   I am available for entry-level full-time positions. Contact me
                   and let&apos;s talk.
                 </p>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import turing from '../assets/turing.png';
 import photo from '../assets/photo.png';
 import background from '../assets/background1.png';
@@ -6,40 +6,46 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-// import { useTheme } from 'next-themes';
+import { useTheme } from 'next-themes';
 import { HiOutlineSun, HiMoon } from 'react-icons/hi';
 
 const Main = () => {
-  // const { systemTheme, theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+  const { systemTheme, theme, setTheme } = useTheme();
 
-  // const renderThemeChanger = () => {
-  //   const currentTheme = theme === 'system' ? systemTheme : theme;
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
-  //   if (currentTheme === 'dark') {
-  //     return (
-  //       <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-  //         <HiOutlineSun />
-  //       </div>
-  //     );
-  //   } else {
-  //     <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-  //       <HiMoon />
-  //     </div>;
-  //   }
-  // };
+  const renderThemeChanger = () => {
+    if (!mounted) return null;
+
+    const currentTheme = theme === 'system' ? systemTheme : theme;
+
+    return (
+      <div
+        onClick={() => {
+          setTheme(currentTheme === 'dark' ? 'light' : 'dark');
+        }}
+        className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+      >
+        {currentTheme === 'dark' ? <HiOutlineSun /> : <HiMoon />}
+      </div>
+    );
+  };
 
   return (
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className="uppercase text-sm tracking-widest text-gray-750">{`LET'S BUILD SOMETHING TOGETHER`}</p>
+          <p className="uppercase text-sm tracking-widest text-gray-750 animate-moveInRight">{`LET'S BUILD SOMETHING TOGETHER`}</p>
           <h1 className="py-4 text-gray-700">
             Hi, I&#39;m <span className="text-[#272A21]"> Ali</span>
           </h1>
           <h1 className="py-2 text-10xl font-bold bg-gradient-to-r from-[#491c13] via-[#FBF8F6] to-[#0F1612] text-transparent bg-clip-text">
             A Front-End Web Developer
           </h1>
-          <p className="py-4 text-gray-800 max-w-[70%] m-auto">
+          <p className="py-4 text-gray-800 max-w-[70%] m-auto dark:text-slate-300">
             I&#39;m a front-end web developer who enjoys building and designing
             exceptional digital experiences. Currently, I&#39;m focused on
             building responsive front-end web applications while learning AWS,
@@ -79,27 +85,28 @@ const Main = () => {
                 <BsFillPersonLinesFill />
               </div>
             </Link>
-            <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <HiMoon />
-            </div>
+            <div>{renderThemeChanger()}</div>
           </div>
         </div>
         <div className="relative">
           <div
-            className="mt-10 ml-20 absolute z-10 flex items-center justify-center"
+            className="absolute inset-0 flex items-center justify-center"
             style={{
               borderRadius: '50%',
               overflow: 'hidden',
+              width: '70%',
+              height: '70%',
+              margin: '15%',
             }}
           >
-            <Image src={photo} alt="photo of Ali" width="1300" height="1300" />
+            <Image src={photo} alt="photo of Ali" width="650" height="650" />
           </div>
           <Image
             className="z-0 rounded-xl opacity-2"
             src={background}
             alt="photo of trees/plants"
-            width="1300"
-            height="1300"
+            width="1500"
+            height="1500"
           />
         </div>
       </div>

@@ -4,11 +4,10 @@ import About from '../components/About';
 import Skills from '../components/Skills';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
-import { ThemeProvider } from 'next-themes';
 
 export default function Home() {
   return (
-    <ThemeProvider>
+    <>
       <Head>
         <title>Ali | Front-End Developer</title>
         <meta
@@ -22,6 +21,6 @@ export default function Home() {
       <Skills />
       <Projects />
       <Contact />
-    </ThemeProvider>
+    </>
   );
 }

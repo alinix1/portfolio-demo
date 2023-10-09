@@ -17,8 +17,8 @@ const resume = () => {
       <div className="max-w[940px] mx-auto p-2 pt-[120px]">
         <h2 className="text-center">Resume</h2>
         <div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
-          <h2 className="text-center">Ali Nix</h2>
-          <div className="flex">
+          <h2 className="text-center dark:text-slate-950">Ali Nix</h2>
+          <div className="flex dark:text-slate-950">
             <a
               href="https://www.linkedin.com/in/ali-nix-38b9b9126/"
               target="_blank"
