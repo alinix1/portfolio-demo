@@ -111,7 +111,7 @@ This is a portfolio website built with Next.js and Tailwind CSS. It includes a s
 
 Used the following resources during the project:
 
-- [![Next][Next-sheild]][Nextjs]
+- [![Next][Next-shield]][Nextjs]
 - [![Tailwind][Tailwind-shield]][TailwindCSS]
 
 <!-- CONTACT -->
