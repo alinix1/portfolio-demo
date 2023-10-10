@@ -92,7 +92,7 @@ This is a portfolio website built with Next.js and Tailwind CSS. It includes a s
 ## Challenges:
 
 - At first, it was hard learning the syntax of [TailwindCSS] alongside JSX.
-- The planning phase is always one of the most challenging parts of web development. I was able to figure out the Next js architecture pretty well since it is similar to React.
+- The planning phase is always one of the most challenging parts of web development. I was able to figure out the Next.js architecture pretty well since it is similar to React.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,7 +111,7 @@ This is a portfolio website built with Next.js and Tailwind CSS. It includes a s
 
 Used the following resources during the project:
 
-- [![Next.js][Next-sheild]][Nextjs]
+- [![Next][Next-sheild]][Nextjs]
 - [![Tailwind][Tailwind-shield]][TailwindCSS]
 
 <!-- CONTACT -->
