@@ -77,7 +77,13 @@ const Main = () => {
               rel="noreferrer"
             >
               <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <Image src={turing} alt="/" width="20" height="30" />
+                <Image
+                  src={turing}
+                  alt="/"
+                  className=" max-w-[400px]"
+                  width="20"
+                  height="30"
+                />
               </div>
             </a>
             <Link href="/resume">
