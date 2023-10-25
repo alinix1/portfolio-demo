@@ -14,7 +14,7 @@
     <br />
     <a href="https://github.com/alinix1/portfolio-demo"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="https://portfolio-demo-project.vercel.app/">Visit the Deployed Site »</strong></a>
+    <a href="https://www.alinix.info/">Visit the Deployed Site »</strong></a>
   </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -62,7 +62,7 @@ This is a portfolio website built with Next.js and Tailwind CSS. It includes a s
 
 ## Setup
 
-- Check out the [deployed site](https://portfolio-demo-project.vercel.app/)
+- Check out the [deployed site](https://www.alinix.info/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
