@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from 'react';
-import turing from '../assets/turing.png';
-import photo from '../assets/photo.png';
-import background from '../assets/background1.png';
-import Link from 'next/link';
-import Image from 'next/image';
-import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { useTheme } from 'next-themes';
-import { HiOutlineSun, HiMoon } from 'react-icons/hi';
+import React, { useState, useEffect } from "react";
+import turing from "../assets/turing.png";
+import photo from "../assets/photo.png";
+import background from "../assets/background1.png";
+import Link from "next/link";
+import Image from "next/image";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+import { useTheme } from "next-themes";
+import { HiOutlineSun, HiMoon } from "react-icons/hi";
 
 const Main = () => {
   const [mounted, setMounted] = useState(false);
@@ -20,22 +20,27 @@ const Main = () => {
   const renderThemeChanger = () => {
     if (!mounted) return null;
 
-    const currentTheme = theme === 'system' ? systemTheme : theme;
+    const currentTheme = theme === "system" ? systemTheme : theme;
 
     return (
       <div
         onClick={() => {
-          setTheme(currentTheme === 'dark' ? 'light' : 'dark');
+          setTheme(currentTheme === "dark" ? "light" : "dark");
+        }}
+        onKeyUp={(event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            setTheme(currentTheme === "dark" ? "light" : "dark");
+          }
         }}
         className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
       >
-        {currentTheme === 'dark' ? <HiOutlineSun /> : <HiMoon />}
+        {currentTheme === "dark" ? <HiOutlineSun /> : <HiMoon />}
       </div>
     );
   };
 
   return (
-    <div id="home" className="w-full h-screen text-center">
+    <div id="home" className="w-full h-screen text-center mb-2">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-750 animate-moveInRight">{`LET'S BUILD SOMETHING TOGETHER`}</p>
@@ -46,11 +51,12 @@ const Main = () => {
             A Front-End Web Developer
           </h1>
           <p className="py-4 text-gray-800 max-w-[70%] m-auto dark:text-slate-300">
-            I&#39;m a front-end web developer who enjoys building and designing
-            exceptional digital experiences. Currently, I&#39;m focused on
-            building responsive front-end web applications while learning AWS,
-            TypeScript, Next.js, and TailwindCSS. I have a master&#39;s degree
-            in Public Health and a concentration in biostatistics.
+            I&#39;m a frontend software engineer who enjoys building and
+            designing exceptional digital experiences. Currently, I&#39;m
+            focused on building responsive front-end web applications while
+            learning TypeScript, Stripe and backend technologies such as Node
+            and PostgreSQL. I have a master&#39;s degree in Public Health and a
+            concentration in biostatistics.
           </p>
           <div className="flex items-center justify-between max-w-[350px] m-auto py-4">
             <a
@@ -98,11 +104,11 @@ const Main = () => {
           <div
             className="absolute inset-0 flex items-center justify-center"
             style={{
-              borderRadius: '50%',
-              overflow: 'hidden',
-              width: '70%',
-              height: '70%',
-              margin: '15%',
+              borderRadius: "50%",
+              overflow: "hidden",
+              width: "70%",
+              height: "70%",
+              margin: "15%",
             }}
           >
             <Image src={photo} alt="photo of Ali" width="650" height="650" />

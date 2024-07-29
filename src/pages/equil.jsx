@@ -1,8 +1,8 @@
-import React from 'react';
-import Image from 'next/image';
-import project3 from '../projects/project3.png';
-import Link from 'next/link';
-import { RiRadioButtonFill } from 'react-icons/ri';
+import React from "react";
+import Image from "next/image";
+import project3 from "../projects/project3.png";
+import Link from "next/link";
+import { RiRadioButtonFill } from "react-icons/ri";
 
 const equilibrium = () => {
   return (
@@ -32,14 +32,18 @@ const equilibrium = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+            <button type="button" className="px-8 py-2 mt-4 mr-8">
+              Code
+            </button>
           </a>
           <a
             href="https://equilibrium-iotnbo.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4">Demo</button>
+            <button type="button" className="px-8 py-2 mt-4">
+              Demo
+            </button>
           </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">

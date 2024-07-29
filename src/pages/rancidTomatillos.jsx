@@ -1,8 +1,8 @@
-import React from 'react';
-import Image from 'next/image';
-import project1 from '../projects/project1.png';
-import Link from 'next/link';
-import { RiRadioButtonFill } from 'react-icons/ri';
+import React from "react";
+import Image from "next/image";
+import project1 from "../projects/project1.png";
+import Link from "next/link";
+import { RiRadioButtonFill } from "react-icons/ri";
 
 const rancidTomatillos = () => {
   return (
@@ -33,14 +33,18 @@ const rancidTomatillos = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+            <button type="button" className="px-8 py-2 mt-4 mr-8">
+              Code
+            </button>
           </a>
           <a
             href="https://rancid-tomatillos-paired.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4">Demo</button>
+            <button type="button" className="px-8 py-2 mt-4">
+              Demo
+            </button>
           </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">

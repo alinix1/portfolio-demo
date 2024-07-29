@@ -1,32 +1,32 @@
-import logo from '../assets/logo.png';
-import turing from '../assets/turing.png';
-import Image from 'next/image';
-import Link from 'next/link';
-import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai';
-import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import React, { useState, useEffect } from 'react';
-import { useRouter } from 'next/router';
+import logo from "../assets/logo.png";
+import turing from "../assets/turing.png";
+import Image from "next/image";
+import Link from "next/link";
+import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+import React, { useState, useEffect } from "react";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#ecf0f3');
-  const [linkColor, setLinkColor] = useState('#1f2937');
+  const [navBg, setNavBg] = useState("#ecf0f3");
+  const [linkColor, setLinkColor] = useState("#1f2937");
   const router = useRouter();
 
   useEffect(() => {
     if (
-      router.asPath === '/rancidTomatillos' ||
-      router.asPath === '/beats' ||
-      router.asPath === '/equil' ||
-      router.asPath === '/rps'
+      router.asPath === "/rancidTomatillos" ||
+      router.asPath === "/beats" ||
+      router.asPath === "/equil" ||
+      router.asPath === "/rps"
     ) {
-      setNavBg('transparent');
-      setLinkColor('#ecf0f3');
+      setNavBg("transparent");
+      setLinkColor("#ecf0f3");
     } else {
-      setNavBg('#ecf0f3');
-      setLinkColor('#1f2937');
+      setNavBg("#ecf0f3");
+      setLinkColor("#1f2937");
     }
   }, [router]);
 
@@ -42,7 +42,7 @@ const Navbar = () => {
         setShadow(false);
       }
     };
-    window.addEventListener('scroll', handleShadow);
+    window.addEventListener("scroll", handleShadow);
   }, []);
 
   return (
@@ -50,8 +50,8 @@ const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? 'fixed w-full h-20 shadow-xl z-[100]'
-          : 'fixed w-full h-20 z-[100]'
+          ? "fixed w-full h-20 shadow-xl z-[100]"
+          : "fixed w-full h-20 z-[100]"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
@@ -99,14 +99,14 @@ const Navbar = () => {
       </div>
       <div
         className={
-          nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/10' : ''
+          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/10" : ""
         }
       >
         <div
           className={
             nav
-              ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#818d6d] p-10 ease-in duration-500'
-              : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#818d6d] p-10 ease-in duration-500"
+              : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
           <div>
@@ -116,6 +116,11 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
+                onKeyUp={(event) => {
+                  if (event.key === "Enter" || event.key === " ") {
+                    setTheme(currentTheme === "dark" ? "light" : "dark");
+                  }
+                }}
                 className="rounded-full shadow-lg shadow-gray-700 p-3 cursor-pointer"
               >
                 <AiOutlineClose />
@@ -128,27 +133,67 @@ const Navbar = () => {
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
               <Link href="/">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm"
+                  onKeyUp={(event) => {
+                    if (event.key === "Enter" || event.key === " ") {
+                      setTheme(currentTheme === "dark" ? "light" : "dark");
+                    }
+                  }}
+                >
                   Home
                 </li>
               </Link>
               <Link href="/#about">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm"
+                  onKeyUp={(event) => {
+                    if (event.key === "Enter" || event.key === " ") {
+                      setTheme(currentTheme === "dark" ? "light" : "dark");
+                    }
+                  }}
+                >
                   About
                 </li>
               </Link>
               <Link href="/#skills">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm"
+                  onKeyUp={(event) => {
+                    if (event.key === "Enter" || event.key === " ") {
+                      setTheme(currentTheme === "dark" ? "light" : "dark");
+                    }
+                  }}
+                >
                   Skills
                 </li>
               </Link>
               <Link href="/#projects">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm"
+                  onKeyUp={(event) => {
+                    if (event.key === "Enter" || event.key === " ") {
+                      setTheme(currentTheme === "dark" ? "light" : "dark");
+                    }
+                  }}
+                >
                   Projects
                 </li>
               </Link>
               <Link href="/#contact">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm"
+                  onKeyUp={(event) => {
+                    if (event.key === "Enter" || event.key === " ") {
+                      setTheme(currentTheme === "dark" ? "light" : "dark");
+                    }
+                  }}
+                >
                   Contact
                 </li>
               </Link>

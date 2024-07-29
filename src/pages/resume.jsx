@@ -1,6 +1,6 @@
-import React from 'react';
-import Head from 'next/head';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import React from "react";
+import Head from "next/head";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const resume = () => {
   return (
@@ -9,7 +9,7 @@ const resume = () => {
         <title>Ali | Resume</title>
         <meta
           name="description"
-          content={`I'm a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.`}
+          content={`I'm a front-end software developer specializing in building (and occasionally designing) exceptional digital experiences.`}
         />
       </Head>
       <div className="max-w[940px] mx-auto p-2 pt-[120px]">
@@ -22,22 +22,22 @@ const resume = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
+              <FaLinkedinIn size={20} style={{ marginRight: "1rem" }} />
             </a>
             <a
               href="https://github.com/alinix1"
               target="_blank"
               rel="noreferrer"
             >
-              <FaGithub size={20} style={{ marginRight: '1rem' }} />
+              <FaGithub size={20} style={{ marginRight: "1rem" }} />
             </a>
           </div>
         </div>
         <div className="text-center py-4 text-xl fopnt-bold uppercase tracking-wider">
           <div className="hidden sm:block">
             <p>
-              Software Development <span className="px-1">|</span> Master of
-              Public Health (MPH), concentration in biostatistics{' '}
+              Frontend Software Development <span className="px-1">|</span>{" "}
+              Master of Public Health (MPH), concentration in biostatistics{" "}
             </p>
           </div>
           <div className="block sm:hidden">
@@ -47,14 +47,15 @@ const resume = () => {
           </div>
         </div>
         <p>
-          {`I am an enthusiastic, highly motivated entry-level front-end web developer with a solid educational background in Biostatistics, Data Science, Analytics, and Web Development. I recently completed a seven-month accelerated coding program for front-end development in Vanilla JavaScript, focusing on React framework.`}
+          {`I am an enthusiastic, highly motivated entry-level front-end developer with a solid educational background in Public Health & Biostatistics, Applied Data Science, and Software Development. I completed a seven-month accelerated coding program for front-end development in Vanilla JavaScript, focusing on the React framework.`}
         </p>
         <div className="text-center py-4">
           <h5 className="text-center underline text-[18px] py-2">
             Soft Skills
           </h5>
           <p className="py-2">
-            <span className="px-2"></span>Communication
+            <span className="px-2" />
+            Communication
             <span className="px-2">|</span>Empathy
             <span className="px-2">|</span>Patience
             <span className="px-2">|</span>Time Management
@@ -67,32 +68,43 @@ const resume = () => {
             Technical Skills
           </h5>
           <p className="py-2">
-            <span className="px-2"></span>JavaScript
-            <span className="px-2">|</span>HTML/JSX
+            <span className="px-2" />
+            JavaScript
+            <span className="px-2">|</span>TypeScript
+            <span className="px-2">|</span>HTML5/JSX
             <span className="px-2">|</span>CSS3
-            <span className="px-2">|</span>Python 3.6.3
-            <span className="px-2">|</span>Object Oriented Programming (OOP)
-            <span className="px-2">|</span>Test Driven Development (TDD)
+            <span className="px-2">|</span>SASS (SCSS)
+            <span className="px-2">|</span>Material UI
+            <span className="px-2">|</span>Tailwind CSS
+            <span className="px-2">|</span>Python
+            <span className="px-2">|</span>Pandas
             <span className="px-2">|</span>Mocha & Chai
             <span className="px-2">|</span>React Testing Library
             <span className="px-2">|</span>Cypress.io
+            <span className="px-2">|</span>Playwright
+            <span className="px-2">|</span>Pytest
+            <span className="px-2">|</span>React.js
+            <span className="px-2">|</span>React Hooks
+            <span className="px-2">|</span>React Router
+            <span className="px-2">|</span>Next.js
+            <span className="px-2">|</span>Redux Toolkit
+            <span className="px-2">|</span>RESTful APIs
+            <span className="px-2">|</span>Apollo Client GraphQL
+            <span className="px-2">|</span>Figma
+            <span className="px-2">|</span>Express.js
+            <span className="px-2">|</span>PostgreSQL
+            <span className="px-2">|</span>SQL
+            <span className="px-2">|</span>MVC
             <span className="px-2">|</span>VSCode
             <span className="px-2">|</span>Git
             <span className="px-2">|</span>GitHub
+            <span className="px-2">|</span>Webpack
+            <span className="px-2">|</span>Node.js
+            <span className="px-2">|</span>npm & yarn
             <span className="px-2">|</span>Agile Workflow
-            <span className="px-2">|</span>React.js
-            <span className="px-2">|</span>MVC
-            <span className="px-2">|</span>React Hooks
-            <span className="px-2">|</span>React Router
-            <span className="px-2">|</span>Redux
-            <span className="px-2">|</span>RESTful APIs
-            <span className="px-2">|</span>GraphQL
-            <span className="px-2">|</span>Postman
-            <span className="px-2">|</span>Figma
+            <span className="px-2">|</span>Object Oriented Programming (OOP)
+            <span className="px-2">|</span>Test Driven Development (TDD)
             <span className="px-2">|</span>UI/UX
-            <span className="px-2">|</span>TypeScript
-            <span className="px-2">|</span>Express.js
-            <span className="px-2">|</span>SQL
           </p>
         </div>
         <h5 className="text-center underline text-[18px] py-4">
@@ -100,43 +112,109 @@ const resume = () => {
         </h5>
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold italic">theCoderSchool</span>
-            <span className="px-2">|</span>Centennial, CO
+            <span className="font-bold italic">Ashoka</span>
+            <span className="px-2">|</span>Remote
           </p>
-          <p className="py-1 italic">Code Coach (3/2023 - Current)</p>
+          <p className="py-1 italic">
+            Volunteer Frontend Developer (3/2024 - 6/2024)
+          </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Teach kids to code in-person with a 2:1 teaching ratio and an
-              individualized curriculum.
-            </li>
-            <li>
-              Primarily utilizing Scratch, Python or JavaScript in a
-              project-based learning environment.
-            </li>
-            <li>
-              Increased literacy for each student by 50 points through
-              interactive learning, app development, and concept reviews.
+              Transformed a prototype into Strategy Inspiration Bot, an MVP and
+              single-page app within 1-3 months. Collaborated with design and
+              engineering teams using Figma, React, and Material UI to deliver
+              an intuitive, user-friendly web application.
             </li>
           </ul>
         </div>
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold italic">
-              Turing School of Software & Design
-            </span>
+            <span className="font-bold italic">The Commons XR</span>
             <span className="px-2">|</span>Remote
           </p>
           <p className="py-1 italic">
-            Front-End Software Developer (Completed 2022)
+            Frontend Engineer Intern (1/2024 - 7/2024)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Completed ACCET accredited software development program, excelling
-              in agile workflow on teams.
+              Implemented 8 responsive design prototype features using React and
+              Material UI, boosting UX and accessibility. This streamlined
+              access to learning resources and mental health support,
+              significantly improving user engagement.
             </li>
             <li>
-              Developed 10 impactful projects utilizing Vanilla JavaScript
-              individually and in pairs/groups, 5 leveraging React.
+              Resolved UI bugs in React, and conducted research on Google
+              Analytics to enhance data-driven decision making.
+            </li>
+            <li>
+              Contributed to engineering best practices by writing succinct
+              code, utilizing version control, collaborating cross-functionally
+              across different teams and departments, and writing documentation
+              to empower and inform other engineers.
+            </li>
+            <li>
+              Utilizing Core Mapper, Azure Functions API, and React, we aimed to
+              streamline PowerPoint conversion, eliminating manual uploading by
+              implementing a server-side Python solution; ensuring efficiency,
+              cost-effectiveness, and data integrity.
+            </li>
+            <li>
+              Conducted unit testing with React Testing Library of React
+              components to ensure functionality and aid debugging, enhancing
+              overall code reliability.
+            </li>
+          </ul>
+        </div>
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">Health Equity Tracker</span>
+            <span className="px-2">|</span>Remote
+          </p>
+          <p className="py-1 italic">
+            Software Engineer Intern/Software Engineering and Education
+            Development (SEED) Program (11/2023 - 7/2024)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Wrote 10+ end-to-end test scripts using Playwright and codegen on
+              the front-end to improve application security and reliability
+              through configuring the scripts into nightly test runs and status
+              reports.
+            </li>
+            <li>
+              Worked on the backend with data pipelines and Python/Pandas for
+              data manipulation to improve ease of data processing and
+              consumption.
+            </li>
+            <li>
+              Performed unit testing of Python utility functions with Pytest to
+              ensure expected behavior and prevent regressions.
+            </li>
+            <li>
+              Engaged in 10+ code reviews on GitHub to collaboratively polish
+              code and make sure it&apos;s ready for production.
+            </li>
+            <li>
+              Developed the frontend using React and TypeScript to integrate new
+              datasets, enhancing data visibility and accessibility.
+            </li>
+          </ul>
+        </div>
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">theCoderSchool</span>
+            <span className="px-2">|</span>Centennial, CO
+          </p>
+          <p className="py-1 italic">Code Coach (3/2023 - 1/2024)</p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Instructed 3-4 individuals on how to code with a 2:1 teaching
+              ratio and an individualized curriculum.
+            </li>
+            <li>
+              Increased students&apos; learning progress in Python, JavaScript,
+              or Scratch by 50 points from baseline through interactive
+              learning, app development, and concept reviews.
             </li>
           </ul>
         </div>
@@ -148,13 +226,19 @@ const resume = () => {
           <p className="py-1 italic">Data Science Intern (5/2018 - 11/2018)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Engineered an innovative thesaurus/word recommender program for
-              text, akin to Grammarly.
+              Contributed to developing a text editor demo by preparing and
+              preprocessing text-based data for statistical modeling and machine
+              learning.
             </li>
             <li>
-              Instrumental in gaining project funding by researching and
-              applying for $225,000 Small Business Innovation Grant (SBIR) from
-              National Science Foundation.
+              Assisted in the summary of the F-Score evaluation metric for a
+              machine learning project, which added to overall precision.
+            </li>
+            <li>
+              Engineered a thesaurus word recommender program for text utilizing
+              an open-source text corpus, Python, and the SpaCy module for
+              Natural Language Processing (NLP) to boost vocabulary, clarity,
+              and concision for English language writing.
             </li>
           </ul>
         </div>
@@ -166,13 +250,12 @@ const resume = () => {
         <div className="py-6">
           <p className="italic">
             <span className="font-bold italic">Kent State University</span>
-            <span className="font-bold italic"></span>
+            {/* <span className="font-bold italic"></span> */}
             <span className="px-2">|</span>Kent, OH
           </p>
           <p className="py-1 italic">
             Master of Public Health
             <span className="px-2">|</span>concentration in biostatistics
-            (Completed 2016)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
@@ -188,8 +271,44 @@ const resume = () => {
           </p>
           <p className="py-1 italic">
             Bachelor of Arts
-            <span className="px-2">|</span>Psychology (Completed 2011)
+            <span className="px-2">|</span>Psychology
           </p>
+        </div>
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">AWS</span>
+            <span className="px-2">|</span>Remote
+          </p>
+          <p className="py-1 italic">
+            Certificate in Cloud Practitioner (Completed 2023)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Entry-level certification designed to validate foundational,
+              high-level understanding of AWS Cloud and Services.
+            </li>
+          </ul>
+        </div>
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">
+              Turing School of Software & Design
+            </span>
+            <span className="px-2">|</span>Remote
+          </p>
+          <p className="py-1 italic">
+            Front-End Web Development (Completed 2022)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Completed 1700 hours, ACCET accredited software development
+              program, excelling in agile workflow on teams.
+            </li>
+            <li>
+              Developed 10 impactful projects utilizing Vanilla JavaScript
+              individually and in pairs/groups, 5 leveraging React.
+            </li>
+          </ul>
         </div>
         <div className="py-6">
           <p className="italic">
@@ -221,21 +340,6 @@ const resume = () => {
             </li>
           </ul>
         </div>
-      </div>
-      <div className="py-6">
-        <p className="italic">
-          <span className="font-bold italic">AWS</span>
-          <span className="px-2">|</span>Remote
-        </p>
-        <p className="py-1 italic">
-          Certificate in Cloud Practitioner (Completed 2023)
-        </p>
-        <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-          <li>
-            Entry-level certification designed to validate foundational,
-            high-level understanding of AWS Cloud and Services.
-          </li>
-        </ul>
       </div>
     </>
   );
