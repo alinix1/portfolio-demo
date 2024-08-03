@@ -14,26 +14,34 @@ const Projects = () => {
         </p>
         <h2 className="py-4">{`What I've Built`}</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <ProjectItem
-            title="Rancid Tomatillos App"
-            backgroundImg={project1}
-            projectUrl="/rancidTomatillos"
-          />
-          <ProjectItem
-            title="Beats 4 Devs App"
-            backgroundImg={project2}
-            projectUrl="/beats"
-          />
-          <ProjectItem
-            title="Equilibrium App"
-            backgroundImg={project3}
-            projectUrl="/equil"
-          />
-          <ProjectItem
-            title="Rock Paper Scissors App"
-            backgroundImg={project4}
-            projectUrl="/rps"
-          />
+          <div className="project-card rounded-lg overflow-hidden">
+            <ProjectItem
+              title="Rancid Tomatillos App"
+              backgroundImg={project1}
+              projectUrl="/rancidTomatillos"
+            />
+          </div>
+          <div className="project-card rounded-lg overflow-hidden">
+            <ProjectItem
+              title="Beats 4 Devs App"
+              backgroundImg={project2}
+              projectUrl="/beats"
+            />
+          </div>
+          <div className="project-card rounded-lg overflow-hidden">
+            <ProjectItem
+              title="Equilibrium App"
+              backgroundImg={project3}
+              projectUrl="/equil"
+            />
+          </div>
+          <div className="project-card rounded-lg overflow-hidden">
+            <ProjectItem
+              title="Rock Paper Scissors App"
+              backgroundImg={project4}
+              projectUrl="/rps"
+            />
+          </div>
         </div>
       </div>
     </div>

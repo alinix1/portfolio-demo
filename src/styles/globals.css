@@ -1,12 +1,12 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 html {
   scroll-behavior: smooth;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 @layer base {
@@ -29,10 +29,6 @@ html {
 
   h2 {
     @apply text-3xl sm:text-4xl;
-  }
-
-  li {
-    @apply cursor-pointer;
   }
 
   button {
@@ -59,5 +55,42 @@ html {
 .animate-moveInRight {
   animation-name: moveInRight;
   animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes imageZoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  80% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.project-card {
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+  border: none;
+}
+
+.project-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-card img {
+  transition: transform 0.7s ease-in-out;
+}
+
+.project-card:hover img {
+  animation-name: imageZoomIn;
+  animation-duration: 0.7s;
   animation-timing-function: ease-out;
 }

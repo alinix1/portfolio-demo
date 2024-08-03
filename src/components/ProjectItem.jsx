@@ -1,11 +1,10 @@
-import React from 'react';
-import Link from 'next/link';
-import project1 from '../projects/project1.png';
-import Image from 'next/image';
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 const ProjectItem = ({ title, backgroundImg, projectUrl }) => {
   return (
-    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-500 rounded-xl p-4 group hover:bg-gradient-to-r from-[#272A21] to-[#332115]">
+    <div className="relative flex items-center justify-center h-auto w-full p-4 group hover:bg-gradient-to-r from-[#272A21] to-[#332115] project-card">
       <Image
         className="rounded-xl group-hover:opacity-20"
         src={backgroundImg}

@@ -34,19 +34,24 @@ const About = () => {
             <p className="mb-4">
               Recently, I have completed various internships and volunteer
               projects. I have deepened my understanding of full stack web
-              development along with TypeScript, Python, and responsive design.
-              In my free time, I enjoy traveling, climbing, skiing, attending
-              concerts, drawing, and spending time with my dog.
+              development along with independent learning in TypeScript, Python,
+              responsive design, MongoDB, and PostgreSQL for non-relational and
+              relational databases. In my free time, I enjoy traveling,
+              climbing, skiing, attending concerts, drawing, and spending time
+              with my dog.
             </p>
           </div>
-          <p className="py-2 text-gray-800 dark:text-slate-300">
+          <p className="py-2 text-gray-800 dark:text-slate-300 font-bold">
             The difference between a successful person and others is not a lack
-            of strength, not a lack of knowledge, but rather a lack in will. -
-            Vince Lombardi Jr.
+            of strength, not a lack of knowledge, but rather a lack in will.
+            <br />
+            <span className="font-normal"> - Vince Lombardi Jr.</span>
           </p>
-          <p className="py-2 text-gray-800 dark:text-slate-300">
+          <p className="py-2 text-gray-800 dark:text-slate-300 font-bold">
             Failure will never overtake me if my determination to succeed is
-            strong enough. - Og Mandino.
+            strong enough.
+            <br />
+            <span className="font-normal"> - Og Mandino.</span>
           </p>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-600 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">

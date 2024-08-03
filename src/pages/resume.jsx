@@ -12,10 +12,12 @@ const resume = () => {
           content={`I'm a front-end software developer specializing in building (and occasionally designing) exceptional digital experiences.`}
         />
       </Head>
-      <div className="max-w[940px] mx-auto p-2 pt-[120px]">
+      <div className="w-full overflow-hidden p-2 pt-[120px]">
         <h2 className="text-center">Resume</h2>
-        <div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
-          <h2 className="text-center dark:text-slate-950">Ali Nix</h2>
+        <div className="bg-[#d0d4d6] my-4 p-4 w-full flex flex-col sm:flex-row justify-between items-center">
+          <h2 className="text-center dark:text-slate-950 mb-2 sm:mb-0">
+            Ali Nix
+          </h2>
           <div className="flex dark:text-slate-950">
             <a
               href="https://www.linkedin.com/in/ali-nix-38b9b9126/"
@@ -262,7 +264,26 @@ const resume = () => {
               Analyzed and interpreted statistical data from Behavioral Risk
               Factor Surveillance system (BRFSS).
             </li>
+            <li>
+              Performed a thorough literature review on Chronic Obstructive
+              Pulmonary Disease (COPD) followed by the rationale or objective to
+              examine the association between depression status and healthcare
+              access, healthcare utilization, and health-related quality of life
+              among adults with COPD. Collected data from the Behavioral Risk
+              Factor Surveillance System (BRFSS) in 2011 and 2012. Gathered
+              descriptive statistics as a part of the exploratory data analysis,
+              including the mean or proportion and 95% confidence intervals. In
+              addition, logistic Regression models were produced with
+              corresponding odds ratios using SAS. Results of the study
+              indicated that COPD was significantly associated with the
+              following:
+            </li>
           </ul>
+          <ol>
+            <li>1. Medical costs are seen as a barrier to care.</li>
+            <li>2. Increased visits with the COPD doctor.</li>
+            <li>3. Decreased health-related quality of life.</li>
+          </ol>
         </div>
         <div className="py-6">
           <p className="italic">
