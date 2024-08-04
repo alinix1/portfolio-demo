@@ -35,7 +35,7 @@ const resume = () => {
             </a>
           </div>
         </div>
-        <div className="text-center py-4 text-xl fopnt-bold uppercase tracking-wider">
+        <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
           <div className="hidden sm:block">
             <p>
               Frontend Software Development <span className="px-1">|</span>{" "}
@@ -43,7 +43,7 @@ const resume = () => {
             </p>
           </div>
           <div className="block sm:hidden">
-            <p>Proven Leadership</p>
+            <p>Design Oriented</p>
             <p className="py-2">Web Development</p>
             <p>Complex Problem Solving</p>
           </div>
@@ -53,62 +53,91 @@ const resume = () => {
         </p>
         <div className="text-center py-4">
           <h5 className="text-center underline text-[18px] py-2">
-            Soft Skills
-          </h5>
-          <p className="py-2">
-            <span className="px-2" />
-            Communication
-            <span className="px-2">|</span>Empathy
-            <span className="px-2">|</span>Patience
-            <span className="px-2">|</span>Time Management
-            <span className="px-2">|</span>Research
-            <span className="px-2">|</span>Problem-solving
-          </p>
-        </div>
-        <div className="text-center py-4">
-          <h5 className="text-center underline text-[18px] py-2">
             Technical Skills
           </h5>
-          <p className="py-2">
-            <span className="px-2" />
-            JavaScript
-            <span className="px-2">|</span>TypeScript
-            <span className="px-2">|</span>HTML5/JSX
-            <span className="px-2">|</span>CSS3
-            <span className="px-2">|</span>SASS (SCSS)
-            <span className="px-2">|</span>Material UI
-            <span className="px-2">|</span>Tailwind CSS
-            <span className="px-2">|</span>Python
-            <span className="px-2">|</span>Pandas
-            <span className="px-2">|</span>Mocha & Chai
-            <span className="px-2">|</span>React Testing Library
-            <span className="px-2">|</span>Cypress.io
-            <span className="px-2">|</span>Playwright
-            <span className="px-2">|</span>Pytest
-            <span className="px-2">|</span>React.js
-            <span className="px-2">|</span>React Hooks
-            <span className="px-2">|</span>React Router
-            <span className="px-2">|</span>Next.js
-            <span className="px-2">|</span>Redux Toolkit
-            <span className="px-2">|</span>RESTful APIs
-            <span className="px-2">|</span>Apollo Client GraphQL
-            <span className="px-2">|</span>Figma
-            <span className="px-2">|</span>Express.js
-            <span className="px-2">|</span>PostgreSQL
-            <span className="px-2">|</span>SQL
-            <span className="px-2">|</span>MVC
-            <span className="px-2">|</span>VSCode
-            <span className="px-2">|</span>Git
-            <span className="px-2">|</span>GitHub
-            <span className="px-2">|</span>Webpack
-            <span className="px-2">|</span>Node.js
-            <span className="px-2">|</span>npm & yarn
-            <span className="px-2">|</span>Agile Workflow
-            <span className="px-2">|</span>Object Oriented Programming (OOP)
-            <span className="px-2">|</span>Test Driven Development (TDD)
-            <span className="px-2">|</span>UI/UX
-          </p>
+          <div className="py-2 flex flex-wrap sm:justify-start md:justify-center">
+            <span className="px-2 sm:w-full md:w-auto">JavaScript</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">TypeScript</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">HTML5/JSX</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">CSS3</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">SASS (SCSS)</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">Material UI</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">Tailwind CSS</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">Python</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">Pandas</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">Mocha & Chai</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">
+              React Testing Library
+            </span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">Cypress.io</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">Playwright</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">Pytest</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">React.js</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">React Hooks</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">React Router</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">Next.js</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">Redux Toolkit</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">RESTful APIs</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">
+              Apollo Client GraphQL
+            </span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">Figma</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">Express.js</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">PostgreSQL</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">SQL</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">MVC</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">VSCode</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">Git</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">GitHub</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">Webpack</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">Node.js</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">npm & yarn</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">Agile Workflow</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">
+              Object Oriented Programming (OOP)
+            </span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">
+              Test Driven Development (TDD)
+            </span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">UI/UX</span>
+          </div>
         </div>
+
         <h5 className="text-center underline text-[18px] py-4">
           Professional Experience
         </h5>

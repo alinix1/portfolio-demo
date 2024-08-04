@@ -113,13 +113,15 @@ const Main = () => {
           >
             <Image src={photo} alt="photo of Ali" width="650" height="650" />
           </div>
-          <Image
-            className="z-0 rounded-xl opacity-2"
-            src={background}
-            alt="photo of trees/plants"
-            width="1500"
-            height="1500"
-          />
+          <div className="hidden sm:block">
+            <Image
+              className="z-0 rounded-xl opacity-2"
+              src={background}
+              alt="photo of trees/plants"
+              width="1500"
+              height="1500"
+            />
+          </div>
         </div>
       </div>
     </div>
