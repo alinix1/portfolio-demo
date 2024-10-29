@@ -1,10 +1,10 @@
 import React from "react";
 import chartImg from "../skills/chart.png";
-import codeWarsImg from "../skills/code-wars.png";
+import sassImg from "../skills/sass.png";
 import cssImg from "../skills/css-html.png";
 import gitImg from "../skills/git.png";
 import githubImg from "../skills/github.png";
-import graphqlImg from "../skills/graphql.png";
+import firebaseImg from "../skills/firebase.png";
 import javascriptImg from "../skills/javascript.png";
 import mochaChaiImg from "../skills/mocha-chai.png";
 import nextImg from "../skills/next.png";
@@ -65,7 +65,7 @@ const Skills = () => {
                   <Image src={cssImg} width="64px" height="64px" alt="/" />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <h3>CSS & HTML</h3>
+                  <h3>CSS</h3>
                 </div>
               </div>
             </a>
@@ -107,16 +107,16 @@ const Skills = () => {
 
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <a
-              href="https://www.codewars.com/dashboard"
+              href="https://firebase.google.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image src={codeWarsImg} width="64px" height="64px" alt="/" />
+                  <Image src={firebaseImg} width="64px" height="64px" alt="/" />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <h3>CODE WARS</h3>
+                  <h3>FIREBASE</h3>
                 </div>
               </div>
             </a>
@@ -124,16 +124,16 @@ const Skills = () => {
 
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <a
-              href="https://graphql.org/"
+              href="https://sass-lang.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image src={graphqlImg} width="64px" height="64px" alt="/" />
+                  <Image src={sassImg} width="64px" height="64px" alt="/" />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <h3>GRAPHQL</h3>
+                  <h3>SASS/SCSS</h3>
                 </div>
               </div>
             </a>

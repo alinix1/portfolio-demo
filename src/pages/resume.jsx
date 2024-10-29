@@ -108,6 +108,8 @@ const resume = () => {
             <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">PostgreSQL</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">Firebase</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">SQL</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">MVC</span>
@@ -141,6 +143,42 @@ const resume = () => {
         <h5 className="text-center underline text-[18px] py-4">
           Professional Experience
         </h5>
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">makeitMVP</span>
+            <span className="px-2">|</span>Remote
+          </p>
+          <p className="py-1 italic">
+            Software Developer Apprentice (9/2024 - 10/2024)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Optimized backend by analyzing Firebase and Firestore functions,
+              documenting reusable elements, enhancing the ERD, and initiating
+              code refactoring for future scalability and reuse.
+            </li>
+            <li>
+              Developed features using React, collaborated with designers on
+              Figma hi-fi wireframes, and implemented Context API for global
+              state management.
+            </li>
+            <li>
+              Contributed to agile workflow processes by collaborating with
+              project managers, utilizing Jira and sprint planning, while
+              actively participating in code reviews to maintain code quality
+              with team standards.
+            </li>
+            <li>
+              Collaborated with another developer to integrate Firestore data
+              fetching and display it dynamically on the frontend UI, enhancing
+              overall feature performance and functionality.
+            </li>
+            <li>
+              Tested backend functions within the frontend app, ensuring
+              integration with Firebase/Firestore.
+            </li>
+          </ul>
+        </div>
         <div className="py-6">
           <p className="italic">
             <span className="font-bold italic">Ashoka</span>
