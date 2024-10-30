@@ -28,7 +28,7 @@ const Skills = () => {
       id="skills"
       className="w-full lg:h-screen md:mb-10 md:mt-10 max-w-[1240px] mx-auto px-2"
     >
-      <div className="md:mb-10 md:pt-14">
+      <div className="md:mb-12 md:pt-14">
         <p className="text-xl tracking-widest uppercase text-[#070400] dark:text-slate-300">
           Skills
         </p>
@@ -36,7 +36,7 @@ const Skills = () => {
       </div>
 
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-8">
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://www.chartjs.org/"

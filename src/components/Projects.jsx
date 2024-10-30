@@ -7,9 +7,9 @@ import project4 from "../projects/project4.png";
 
 const Projects = () => {
   return (
-    <div id="projects" className="w-full mt-60">
+    <div id="projects" className="w-full mt-80">
       <div className="max-w-[1240px] mx-auto px-2">
-        <p className="text-xl tracking-widest uppercase text-[#070400] dark:text-slate-300 md:mt-20">
+        <p className=" text-xl tracking-widest uppercase text-[#070400] dark:text-slate-300 md:mt-20">
           Projects
         </p>
         <h2 className="py-4">{`What I've Built`}</h2>
