@@ -84,7 +84,10 @@ const Contact = () => {
         <div className="flex justify-center py-12">
           <Link href="/" aria-label="Go to top">
             <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <HiOutlineChevronDoubleUp className="text-[#272A21]" size={30} />
+              <HiOutlineChevronDoubleUp
+                className="text-[#272A21] dark:text-slate-300"
+                size={30}
+              />
             </div>
           </Link>
         </div>

@@ -37,7 +37,7 @@ const Skills = () => {
 
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-8">
-          <div className="p-6 shadow-enhanced-light dark:shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://www.chartjs.org/"
               target="_blank"
@@ -60,7 +60,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://www.css3.com/"
               target="_blank"
@@ -83,7 +83,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://github.com/"
               target="_blank"
@@ -106,7 +106,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://git-scm.com/"
               target="_blank"
@@ -129,7 +129,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://firebase.google.com/"
               target="_blank"
@@ -152,7 +152,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://sass-lang.com/"
               target="_blank"
@@ -175,7 +175,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://www.javascript.com/"
               target="_blank"
@@ -198,7 +198,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://mochajs.org/"
               target="_blank"
@@ -221,7 +221,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://nextjs.org/"
               target="_blank"
@@ -244,7 +244,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://nodejs.org/en"
               target="_blank"
@@ -267,7 +267,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://www.postgresql.org/"
               target="_blank"
@@ -290,7 +290,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://react.dev/"
               target="_blank"
@@ -313,7 +313,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://tailwindcss.com/"
               target="_blank"
@@ -336,7 +336,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://expressjs.com/"
               target="_blank"
@@ -359,7 +359,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://mui.com/material-ui/"
               target="_blank"
@@ -382,7 +382,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://www.cypress.io/"
               target="_blank"
@@ -405,7 +405,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://playwright.dev/"
               target="_blank"
@@ -428,7 +428,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://docs.pytest.org/en/stable/"
               target="_blank"
@@ -451,7 +451,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://www.python.org/"
               target="_blank"
@@ -474,7 +474,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://testing-library.com/docs/react-testing-library/intro/"
               target="_blank"
@@ -497,7 +497,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://www.typescriptlang.org/"
               target="_blank"
