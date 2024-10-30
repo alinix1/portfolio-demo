@@ -43,14 +43,15 @@ const Main = () => {
     <div id="home" className="w-full h-screen text-center mb-2">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className="uppercase text-sm tracking-widest text-gray-750 animate-moveInRight">{`LET'S BUILD SOMETHING TOGETHER`}</p>
-          <h1 className="py-4 text-gray-200">
-            Hi, I&#39;m <span className="text-[#F7F5F3]"> Ali</span>
+          <p className="uppercase text-sm tracking-widest text-[#070400] dark:text-slate-200 animate-moveInRight">{`LET'S BUILD SOMETHING TOGETHER`}</p>
+          <h1 className="py-4 text-[#070400] dark:text-slate-100">
+            Hi, I&#39;m{" "}
+            <span className="text-gray-900 dark:text-[#F7F5F3]"> Ali</span>
           </h1>
-          <h1 className="py-2 text-10xl font-bold bg-gradient-to-r from-[#3E1710] via-[#F7F5F3] to-[#2D322E] text-transparent bg-clip-text">
+          <h1 className="py-2 text-10xl font-bold bg-gradient-to-r from-[#2E120C] via-[#B8B5AF] to-[#171A18] dark:from-[#3E1710] dark:via-[#F7F5F3] dark:to-[#2D322E] text-transparent bg-clip-text">
             A Front-End Web Developer
           </h1>
-          <p className="py-4 text-gray-800 max-w-[70%] m-auto dark:text-slate-300">
+          <p className="py-4 text-[#070400] max-w-[70%] m-auto dark:text-slate-200">
             I&#39;m a frontend software engineer who enjoys building and
             designing exceptional digital experiences. Currently, I&#39;m
             focused on building responsive front-end web applications while

@@ -29,7 +29,7 @@ const Skills = () => {
       className="w-full lg:h-screen md:mb-10 md:mt-10 max-w-[1240px] mx-auto px-2"
     >
       <div className="md:mb-10 md:pt-14">
-        <p className="text-xl tracking-widest uppercase text-[#272A21] dark:text-slate-300">
+        <p className="text-xl tracking-widest uppercase text-[#070400] dark:text-slate-300">
           Skills
         </p>
         <h2 className="py-4 md:m-0">What I Can Do</h2>
