@@ -36,7 +36,7 @@ const Skills = () => {
       </div>
 
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-        <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-8">
+        <div className="grid xs: grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
           <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://www.chartjs.org/"
