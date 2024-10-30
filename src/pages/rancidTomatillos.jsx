@@ -14,7 +14,7 @@ const rancidTomatillos = () => {
             layout="fill"
             objectFit="cover"
             src={project1}
-            alt="/"
+            alt="Project one background"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
             <h2 className="py-2">Rancid Tomatillos</h2>
@@ -32,6 +32,7 @@ const rancidTomatillos = () => {
             href="https://github.com/alinix1/rancid-tomatillos"
             target="_blank"
             rel="noreferrer"
+            aria-label="View Code Rancid Tomatillos"
           >
             <button type="button" className="px-8 py-2 mt-4 mr-8">
               Code
@@ -41,6 +42,7 @@ const rancidTomatillos = () => {
             href="https://rancid-tomatillos-paired.vercel.app/"
             target="_blank"
             rel="noreferrer"
+            aria-label="View Demo Rancid Tomatillos"
           >
             <button type="button" className="px-8 py-2 mt-4">
               Demo
@@ -70,7 +72,7 @@ const rancidTomatillos = () => {
             </div>
           </div>
         </div>
-        <Link href="/#projects">
+        <Link href="/#projects" aria-label="Back">
           <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>

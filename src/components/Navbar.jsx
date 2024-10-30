@@ -55,10 +55,10 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Link href="/">
+        <Link href="/" aria-label="home">
           <Image
             src={logo}
-            alt="/"
+            alt="logo"
             width="80"
             height="50"
             className="cursor-pointer"
@@ -66,27 +66,27 @@ const Navbar = () => {
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-            <Link href="/">
+            <Link href="/" aria-label="home">
               <li className="ml-10 text-sm uppercase hover:border-b relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-500 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
                 Home
               </li>
             </Link>
-            <Link href="/#about">
+            <Link href="/#about" aria-label="about">
               <li className="ml-10 text-sm uppercase hover:border-b relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-500 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
                 About
               </li>
             </Link>
-            <Link href="/#skills">
+            <Link href="/#skills" aria-label="skills">
               <li className="ml-10 text-sm uppercase hover:border-b relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-500 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
                 Skills
               </li>
             </Link>
-            <Link href="/#projects">
+            <Link href="/#projects" aria-label="projects">
               <li className="ml-10 text-sm uppercase hover:border-b relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-500 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
                 Projects
               </li>
             </Link>
-            <Link href="/#contact">
+            <Link href="/#contact" aria-label="contact">
               <li className="ml-10 text-sm uppercase hover:border-b relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-500 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
                 Contact
               </li>
@@ -111,8 +111,8 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Link href="/">
-                <Image src={logo} width="87" height="35" alt="/" />
+              <Link href="/" aria-label="home">
+                <Image src={logo} width="87" height="35" alt="logo" />
               </Link>
               <div
                 onClick={handleNav}
@@ -132,7 +132,7 @@ const Navbar = () => {
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
-              <Link href="/">
+              <Link href="/" aria-label="home">
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 text-sm"
@@ -145,7 +145,7 @@ const Navbar = () => {
                   Home
                 </li>
               </Link>
-              <Link href="/#about">
+              <Link href="/#about" aria-label="about">
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 text-sm"
@@ -158,7 +158,7 @@ const Navbar = () => {
                   About
                 </li>
               </Link>
-              <Link href="/#skills">
+              <Link href="/#skills" aria-label="skills">
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 text-sm"
@@ -171,7 +171,7 @@ const Navbar = () => {
                   Skills
                 </li>
               </Link>
-              <Link href="/#projects">
+              <Link href="/#projects" aria-label="projects">
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 text-sm"
@@ -184,7 +184,7 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href="/#contact">
+              <Link href="/#contact" aria-label="contact">
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 text-sm"
@@ -205,6 +205,7 @@ const Navbar = () => {
                   href="https://www.linkedin.com/in/ali-nix-38b9b9126/"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="LinkedIn profile for Ali Nix"
                 >
                   <div className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaLinkedinIn />
@@ -214,6 +215,7 @@ const Navbar = () => {
                   href="https://github.com/alinix1"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="GitHub profile for Ali Nix"
                 >
                   <div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaGithub />
@@ -223,12 +225,18 @@ const Navbar = () => {
                   href="https://turing.edu/?ads_cmpid=1064466865&ads_adid=72751730870&ads_matchtype=b&ads_network=g&ads_creative=341753979066&utm_term=turing%20school&ads_targetid=kwd-307330888202&utm_campaign=&utm_source=adwords&utm_medium=ppc&ttv=2&gclid=CjwKCAjwgZCoBhBnEiwAz35RwmJ3vBGdXWFXVxHj0JR2wqXPk-W9Iks-OafCJjDSYfU_9ngTZqPAnhoCyXgQAvD_BwE"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="Visit Turing School website"
                 >
                   <div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <Image src={turing} alt="/" width="20" height="30" />
+                    <Image
+                      src={turing}
+                      alt="Turing logo"
+                      width="20"
+                      height="30"
+                    />
                   </div>
                 </a>
-                <Link href="/resume">
+                <Link href="/resume" aria-label="View resume">
                   <div className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <BsFillPersonLinesFill />
                   </div>

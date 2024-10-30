@@ -14,7 +14,7 @@ const equilibrium = () => {
             layout="fill"
             objectFit="cover"
             src={project3}
-            alt="/"
+            alt="Project three background"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
             <h2 className="py-2">Equilibrium</h2>
@@ -31,20 +31,22 @@ const equilibrium = () => {
             href="https://github.com/IOTNBO-Capstone/Equilibrium-FE"
             target="_blank"
             rel="noreferrer"
+            aria-label="View Code Equilibrium"
           >
             <button type="button" className="px-8 py-2 mt-4 mr-8">
               Code
             </button>
           </a>
-          <a
+          {/* <a
             href="https://equilibrium-iotnbo.netlify.app/"
             target="_blank"
             rel="noreferrer"
+            aria-label="View Demo Equilibrium"
           >
             <button type="button" className="px-8 py-2 mt-4">
               Demo
             </button>
-          </a>
+          </a> */}
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
@@ -73,7 +75,7 @@ const equilibrium = () => {
             </div>
           </div>
         </div>
-        <Link href="/#projects">
+        <Link href="/#projects" aria-label="Back">
           <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>

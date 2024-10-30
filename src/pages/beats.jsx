@@ -14,7 +14,7 @@ const beats4devs = () => {
             layout="fill"
             objectFit="cover"
             src={project2}
-            alt="/"
+            alt="Project two background"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
             <h2 className="py-2">Beats 4 Devs</h2>
@@ -32,6 +32,7 @@ const beats4devs = () => {
             href="https://github.com/alinix1/showcase-project-fe"
             target="_blank"
             rel="noreferrer"
+            aria-label="View Code Beats 4 Devs"
           >
             <button type="button" className="px-8 py-2 mt-4 mr-8">
               Code
@@ -41,6 +42,7 @@ const beats4devs = () => {
             href="https://showcase-project-fe.vercel.app/"
             target="_blank"
             rel="noreferrer"
+            aria-label="View Demo Beats 4 Devs"
           >
             <button type="button" className="px-8 py-2 mt-4">
               Demo
@@ -78,7 +80,7 @@ const beats4devs = () => {
             </div>
           </div>
         </div>
-        <Link href="/#projects">
+        <Link href="/#projects" aria-label="Back">
           <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>

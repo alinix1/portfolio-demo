@@ -23,6 +23,7 @@ const resume = () => {
               href="https://www.linkedin.com/in/ali-nix-38b9b9126/"
               target="_blank"
               rel="noreferrer"
+              aria-label="LinkedIn"
             >
               <FaLinkedinIn size={20} style={{ marginRight: "1rem" }} />
             </a>
@@ -30,6 +31,7 @@ const resume = () => {
               href="https://github.com/alinix1"
               target="_blank"
               rel="noreferrer"
+              aria-label="GitHub"
             >
               <FaGithub size={20} style={{ marginRight: "1rem" }} />
             </a>

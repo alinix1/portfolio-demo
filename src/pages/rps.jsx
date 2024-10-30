@@ -1,8 +1,8 @@
-import React from 'react';
-import Image from 'next/image';
-import project4 from '../projects/project4.png';
-import Link from 'next/link';
-import { RiRadioButtonFill } from 'react-icons/ri';
+import React from "react";
+import Image from "next/image";
+import project4 from "../projects/project4.png";
+import Link from "next/link";
+import { RiRadioButtonFill } from "react-icons/ri";
 
 const beats4devs = () => {
   return (
@@ -14,7 +14,7 @@ const beats4devs = () => {
             layout="fill"
             objectFit="cover"
             src={project4}
-            alt="/"
+            alt="Project four background"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
             <h2 className="py-2">Rock Paper Scissors</h2>
@@ -31,6 +31,7 @@ const beats4devs = () => {
             href="https://github.com/alinix1/Rock-Paper-Scissors"
             target="_blank"
             rel="noreferrer"
+            aria-label="View Code Rock Paper Scissors"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
@@ -38,6 +39,7 @@ const beats4devs = () => {
             href="https://rock-paper-scissors-sigma-eight.vercel.app/"
             target="_blank"
             rel="noreferrer"
+            aria-label="View Demo Rock Paper Scissors"
           >
             <button className="px-8 py-2 mt-4">Demo</button>
           </a>
@@ -61,7 +63,7 @@ const beats4devs = () => {
             </div>
           </div>
         </div>
-        <Link href="/#projects">
+        <Link href="/#projects" aria-label="Back">
           <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>

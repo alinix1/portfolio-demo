@@ -44,10 +44,10 @@ const Main = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-750 animate-moveInRight">{`LET'S BUILD SOMETHING TOGETHER`}</p>
-          <h1 className="py-4 text-gray-700">
-            Hi, I&#39;m <span className="text-[#272A21]"> Ali</span>
+          <h1 className="py-4 text-gray-200">
+            Hi, I&#39;m <span className="text-[#F7F5F3]"> Ali</span>
           </h1>
-          <h1 className="py-2 text-10xl font-bold bg-gradient-to-r from-[#491c13] via-[#FBF8F6] to-[#0F1612] text-transparent bg-clip-text">
+          <h1 className="py-2 text-10xl font-bold bg-gradient-to-r from-[#3E1710] via-[#F7F5F3] to-[#2D322E] text-transparent bg-clip-text">
             A Front-End Web Developer
           </h1>
           <p className="py-4 text-gray-800 max-w-[70%] m-auto dark:text-slate-300">
@@ -63,6 +63,7 @@ const Main = () => {
               href="https://www.linkedin.com/in/ali-nix-38b9b9126/"
               target="_blank"
               rel="noreferrer"
+              aria-label="LinkedIn profile for Ali Nix"
             >
               <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaLinkedinIn />
@@ -72,6 +73,7 @@ const Main = () => {
               href="https://github.com/alinix1"
               target="_blank"
               rel="noreferrer"
+              aria-label="GitHub profile for Ali Nix"
             >
               <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaGithub />
@@ -81,18 +83,19 @@ const Main = () => {
               href="https://turing.edu/?ads_cmpid=1064466865&ads_adid=72751730870&ads_matchtype=b&ads_network=g&ads_creative=341753979066&utm_term=turing%20school&ads_targetid=kwd-307330888202&utm_campaign=&utm_source=adwords&utm_medium=ppc&ttv=2&gclid=CjwKCAjwgZCoBhBnEiwAz35RwmJ3vBGdXWFXVxHj0JR2wqXPk-W9Iks-OafCJjDSYfU_9ngTZqPAnhoCyXgQAvD_BwE"
               target="_blank"
               rel="noreferrer"
+              aria-label="Visit Turing School website"
             >
               <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <Image
                   src={turing}
-                  alt="/"
+                  alt="Turing logo"
                   className=" max-w-[400px]"
                   width="20"
                   height="30"
                 />
               </div>
             </a>
-            <Link href="/resume">
+            <Link href="/resume" aria-label="View resume">
               <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <BsFillPersonLinesFill />
               </div>
