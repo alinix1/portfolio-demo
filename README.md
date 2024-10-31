@@ -100,8 +100,8 @@ This is a portfolio website built with Next.js and Tailwind CSS. It includes a s
 
 ## Roadmap
 
-- [ ] Add a domain for the website
-- [ ] Continue work on responsive design
+- [x] Add a domain for the website
+- [x] Continue work on responsive design
 - [ ] Dry up the repetitive code
 - [ ] Add testing with [Jestjs]
 
