@@ -48,7 +48,10 @@ const Main = () => {
             Hi, I&#39;m{" "}
             <span className="text-gray-900 dark:text-[#F7F5F3]"> Ali</span>
           </h1>
-          <h1 className="py-2 text-10xl font-bold bg-gradient-to-r from-[#2E120C] via-[#B8B5AF] to-[#171A18] dark:from-[#3E1710] dark:via-[#F7F5F3] dark:to-[#2D322E] text-transparent bg-clip-text">
+          <h1
+            className="py-2 text-10xl font-bold bg-gradient-to-r from-[#2B1A14] via-[#7A6456] to-[#1A120E]
+ dark:from-[#3E1710] dark:via-[#F7F5F3] dark:to-[#2D322E] text-transparent bg-clip-text"
+          >
             A Front-End Web Developer
           </h1>
           <p className="py-4 text-[#070400] max-w-[70%] m-auto dark:text-slate-200">
