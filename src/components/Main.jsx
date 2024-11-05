@@ -58,9 +58,9 @@ const Main = () => {
             I&#39;m a frontend software engineer who enjoys building and
             designing exceptional digital experiences. Currently, I&#39;m
             focused on building responsive front-end web applications while
-            learning TypeScript, Stripe and backend technologies such as Node
-            and PostgreSQL. I have a master&#39;s degree in Public Health and a
-            concentration in biostatistics.
+            applying skills in TypeScript, Stripe and backend technologies such
+            as Node and PostgreSQL. I have a master&#39;s degree in Public
+            Health and a concentration in biostatistics.
           </p>
           <div className="flex items-center justify-between max-w-[350px] m-auto py-4">
             <a
