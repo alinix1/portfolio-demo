@@ -13,6 +13,10 @@ module.exports = {
         "shadow-enhanced-light": "0 4px 15px rgba(0, 0, 0, 0.2)",
         "shadow-light-white": "0 10px 30px rgba(255, 255, 255, 0.4)",
       },
+      fontFamily: {
+        sans: ["sans-serif"],
+        "chakra-petch": ["Chakra Petch", "sans-serif"],
+      },
     },
   },
   plugins: [],
