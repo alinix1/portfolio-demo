@@ -44,7 +44,7 @@ const Skills = () => {
               rel="noopener noreferrer"
               aria-label="View Chart.JS"
             >
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
                     src={chartImg}
@@ -53,9 +53,8 @@ const Skills = () => {
                     alt="Logo for Chart.js"
                   />
                 </div>
-                <div className="flex flex-col items-center justify-center">
-                  <h3>CHART.JS</h3>
-                </div>
+                <h3 className="text-center sm:text-xs md:text-lg">CHART.JS</h3>
+                <div className="flex flex-col items-center justify-center"></div>
               </div>
             </a>
           </div>
@@ -67,7 +66,7 @@ const Skills = () => {
               rel="noopener noreferrer"
               aria-label="View CSS3"
             >
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
                     src={cssImg}
@@ -90,7 +89,7 @@ const Skills = () => {
               rel="noopener noreferrer"
               aria-label="View GitHub"
             >
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
                     src={githubImg}
@@ -113,7 +112,7 @@ const Skills = () => {
               rel="noopener noreferrer"
               aria-label="View Git"
             >
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
                     src={gitImg}
@@ -136,7 +135,7 @@ const Skills = () => {
               rel="noopener noreferrer"
               aria-label="View Firebase"
             >
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
                     src={firebaseImg}
@@ -159,7 +158,7 @@ const Skills = () => {
               rel="noopener noreferrer"
               aria-label="View SASS/SCSS"
             >
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
                     src={sassImg}
@@ -182,7 +181,7 @@ const Skills = () => {
               rel="noopener noreferrer"
               aria-label="View JavaScript"
             >
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
                     src={javascriptImg}
@@ -205,7 +204,7 @@ const Skills = () => {
               rel="noopener noreferrer"
               aria-label="View Mocha & Chai"
             >
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
                     src={mochaChaiImg}
@@ -228,7 +227,7 @@ const Skills = () => {
               rel="noopener noreferrer"
               aria-label="View Next.js"
             >
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
                     src={nextImg}
@@ -251,7 +250,7 @@ const Skills = () => {
               rel="noopener noreferrer"
               aria-label="View Node.js"
             >
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
                     src={nodeImg}
@@ -274,7 +273,7 @@ const Skills = () => {
               rel="noopener noreferrer"
               aria-label="View PostgreSQL"
             >
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
                     src={postgresqlImg}
@@ -297,7 +296,7 @@ const Skills = () => {
               rel="noopener noreferrer"
               aria-label="View React.js"
             >
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
                     src={reactImg}
@@ -320,7 +319,7 @@ const Skills = () => {
               rel="noopener noreferrer"
               aria-label="View Tailwind CSS"
             >
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
                     src={tailwindImg}
@@ -343,7 +342,7 @@ const Skills = () => {
               rel="noopener noreferrer"
               aria-label="View Express.js"
             >
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
                     src={expressImg}
@@ -366,7 +365,7 @@ const Skills = () => {
               rel="noopener noreferrer"
               aria-label="View Material UI"
             >
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
                     src={materialImg}
@@ -389,7 +388,7 @@ const Skills = () => {
               rel="noopener noreferrer"
               aria-label="View Cypress"
             >
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
                     src={cypressImg}
@@ -412,7 +411,7 @@ const Skills = () => {
               rel="noopener noreferrer"
               aria-label="View Playwright"
             >
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
                     src={playwrightImg}
@@ -435,7 +434,7 @@ const Skills = () => {
               rel="noopener noreferrer"
               aria-label="View Pytest"
             >
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
                     src={pytestImg}
@@ -458,7 +457,7 @@ const Skills = () => {
               rel="noopener noreferrer"
               aria-label="View Python"
             >
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
                     src={pythonImg}
@@ -481,7 +480,7 @@ const Skills = () => {
               rel="noopener noreferrer"
               aria-label="View React Testing Library"
             >
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
                     src={reactTestingImg}
@@ -504,7 +503,7 @@ const Skills = () => {
               rel="noopener noreferrer"
               aria-label="View Typescript"
             >
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
                     src={typescriptImg}
