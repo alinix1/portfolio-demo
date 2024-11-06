@@ -26,9 +26,9 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="w-full lg:h-screen md:mb-10 md:mt-10 max-w-[1240px] mx-auto px-2"
+      className="w-full mt-20 md:mt-24 lg:mt-32 mb-20 max-w-[1240px] mx-auto px-2"
     >
-      <div className="md:mb-12 md:pt-14">
+      <div className="md:mb-12">
         <p className="text-xl tracking-widest uppercase text-[#070400] dark:text-slate-300">
           Skills
         </p>
