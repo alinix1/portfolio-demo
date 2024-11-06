@@ -121,7 +121,13 @@ const Main = () => {
               margin: "15%",
             }}
           >
-            <Image src={photo} alt="photo of Ali" width="650" height="650" />
+            <Image
+              src={photo}
+              alt="photo of Ali"
+              width="650"
+              height="650"
+              priority
+            />
           </div>
           <div className="hidden sm:block">
             <Image
