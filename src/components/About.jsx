@@ -32,10 +32,10 @@ const About = () => {
               Recently, I have completed various internships and volunteer
               projects. I have deepened my understanding of full stack web
               development along with independent learning in TypeScript, Python,
-              responsive design, MongoDB, and PostgreSQL for non-relational and
-              relational databases. In my free time, I enjoy traveling,
-              climbing, skiing, attending concerts, drawing, and spending time
-              with my dog.
+              responsive design, Firebase/Firestore, and PostgreSQL for
+              non-relational and relational databases. In my free time, I enjoy
+              traveling, climbing, skiing, attending concerts, drawing, and
+              spending time with my dog.
             </p>
           </div>
           <p className="py-2 text-[#070400] dark:text-slate-300 font-bold">
