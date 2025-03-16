@@ -73,6 +73,10 @@ const nytimesnews = () => {
                 <RiRadioButtonFill className="pr-1" />
                 Playwright
               </p>
+              <p className="text-gray-700 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Vercel
+              </p>
             </div>
           </div>
         </div>
