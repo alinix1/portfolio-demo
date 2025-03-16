@@ -16,9 +16,9 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <div className="project-card rounded-lg overflow-hidden">
             <ProjectItem
-              title="Rancid Tomatillos App"
+              title="NY Times News App"
               backgroundImg={project1}
-              projectUrl="/rancidTomatillos"
+              projectUrl="/news"
             />
           </div>
           <div className="project-card rounded-lg overflow-hidden">
