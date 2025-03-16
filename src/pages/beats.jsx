@@ -55,6 +55,10 @@ const beats4devs = () => {
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-700 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
+                JavaScript
+              </p>
+              <p className="text-gray-700 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
                 React
               </p>
               <p className="text-gray-700 py-2 flex items-center">
