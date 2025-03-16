@@ -4,7 +4,7 @@ import project1 from "../projects/project1.png";
 import Link from "next/link";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-const rancidTomatillos = () => {
+const nytimesnews = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -17,7 +17,7 @@ const rancidTomatillos = () => {
             alt="Project one background"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Rancid Tomatillos</h2>
+            <h2 className="py-2">NY Times News</h2>
             <h3>React JS</h3>
           </div>
         </div>
@@ -26,23 +26,23 @@ const rancidTomatillos = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>{`Rancid Tomatillos' is a movie viewing application, not to be confused with Rotten Tomatoes, or Netflix, or IMDB. This is our first project using React.js! It's even better! On the main page of our application a user can view all movies with their movie poster, title, and tomatillo rating of excellence. The user can also search by movie title and the page will auto update with movies that match the criteria. If a user wants to view additional details about the movie, they can click on the movie and will be taken to a movie detail page with movie trailers to swipe through, overview, genres, release date, and runtime. To exit and go back home, just click the X button in the top corner. Happy movie browsing!`}</p>
+          <p>{`This is a web application built to provide a selection of news articles to keep you in-the-know on the top news stories. It allows for an easy way to interact with articles from the New York Times Top Stories API`}</p>
 
           <a
-            href="https://github.com/alinix1/rancid-tomatillos"
+            href="https://github.com/alinix1/ny-times-news-reader"
             target="_blank"
             rel="noreferrer"
-            aria-label="View Code Rancid Tomatillos"
+            aria-label="View Code NY Times News"
           >
             <button type="button" className="px-8 py-2 mt-4 mr-8">
               Code
             </button>
           </a>
           <a
-            href="https://rancid-tomatillos-paired.vercel.app/"
+            href="https://ny-times-news-reader-1-93xzk6f75-alinix1s-projects.vercel.app/"
             target="_blank"
             rel="noreferrer"
-            aria-label="View Demo Rancid Tomatillos"
+            aria-label="View Demo NY Times News"
           >
             <button type="button" className="px-8 py-2 mt-4">
               Demo
@@ -63,11 +63,15 @@ const rancidTomatillos = () => {
               </p>
               <p className="text-gray-700 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Cypress
+                JavaScript
               </p>
               <p className="text-gray-700 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Vercel
+                SASS
+              </p>
+              <p className="text-gray-700 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Playwright
               </p>
             </div>
           </div>
@@ -80,4 +84,4 @@ const rancidTomatillos = () => {
   );
 };
 
-export default rancidTomatillos;
+export default nytimesnews;
