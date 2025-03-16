@@ -17,7 +17,7 @@ const About = () => {
               I am a graduate of the Front End Engineering program at the Turing
               School of Software & Design, where I mastered agile workflows and
               methodologies, Object-Oriented Programming with JavaScript ES6,
-              and the React framework. I hold a Master of Public Health degree
+              HTML5, CSS3, and React. I hold a Master of Public Health degree
               with a concentration in biostatistics and a certificate in data
               science, emphasizing machine learning, from General Assembly.
             </p>
@@ -31,11 +31,13 @@ const About = () => {
             <p className="mb-4">
               Recently, I have completed various internships and volunteer
               projects. I have deepened my understanding of full stack web
-              development along with independent learning in TypeScript, Python,
+              development along with independent learning in TypeScript,
               responsive design, Firebase/Firestore, and PostgreSQL for
-              non-relational and relational databases. In my free time, I enjoy
-              traveling, climbing, skiing, attending concerts, drawing, and
-              spending time with my dog.
+              non-relational and relational databases. I am currently expanding
+              my toolkit by learning about LLMs, exploring Vue.js, and
+              implementing Bootstrap in an upcoming project this year. In my
+              free time, I enjoy traveling, climbing, skiing, attending
+              concerts, drawing, and spending time with my dog.
             </p>
           </div>
           <p className="py-2 text-[#070400] dark:text-slate-300 font-bold">
