@@ -54,11 +54,11 @@ const beats4devs = () => {
               </p>
               <p className="text-gray-700 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                HTML
+                HTML5
               </p>
               <p className="text-gray-700 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                CSS
+                CSS3
               </p>
             </div>
           </div>
