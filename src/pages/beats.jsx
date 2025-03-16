@@ -59,6 +59,10 @@ const beats4devs = () => {
               </p>
               <p className="text-gray-700 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
+                CSS3
+              </p>
+              <p className="text-gray-700 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
                 React
               </p>
               <p className="text-gray-700 py-2 flex items-center">
@@ -67,11 +71,11 @@ const beats4devs = () => {
               </p>
               <p className="text-gray-700 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Cypress
+                Redux
               </p>
               <p className="text-gray-700 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Redux
+                Cypress
               </p>
               <p className="text-gray-700 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
