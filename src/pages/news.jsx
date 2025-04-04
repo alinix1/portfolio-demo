@@ -16,14 +16,10 @@ const nytimesnews = () => {
             src={project1}
             alt="Project one background"
           />
-          <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">NY Times News</h2>
-            <h3>React JS</h3>
-          </div>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
-        <div className="col-span-4">
+        <div className="col-span-4 space-y-4 py-6">
           <p>Project</p>
           <h2>Overview</h2>
           <p>{`This is a web application built to provide a selection of news articles to keep you in-the-know on the top news stories. It allows for an easy way to interact with articles from the New York Times Top Stories API`}</p>
