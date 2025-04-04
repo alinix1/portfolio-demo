@@ -19,7 +19,7 @@ const Navbar = () => {
     if (
       router.asPath === "/news" ||
       router.asPath === "/beats" ||
-      router.asPath === "/equil" ||
+      router.asPath === "/het" ||
       router.asPath === "/rps"
     ) {
       setNavBg("transparent");
