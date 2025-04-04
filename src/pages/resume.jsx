@@ -211,9 +211,9 @@ const resume = () => {
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
               Implemented 8 responsive design prototype features using React and
-              Material UI, boosting UX and accessibility. This streamlined
-              access to learning resources and mental health support,
-              significantly improving user engagement.
+              Material UI, boosting UX and accessibility.
+              <br /> This streamlined access to learning resources and mental
+              health support, significantly improving user engagement.
             </li>
             <li>
               Resolved UI bugs in React, and conducted research on Google
