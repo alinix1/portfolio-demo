@@ -16,14 +16,10 @@ const beats4devs = () => {
             src={project2}
             alt="Project two background"
           />
-          <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Beats 4 Devs</h2>
-            <h3>React JS</h3>
-          </div>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
-        <div className="col-span-4">
+        <div className="col-span-4 space-y-4 py-6">
           <p>Project</p>
           <h2>Overview</h2>
           <p>{`This is a web application built to provide a particular selection of music to facilitate focus while at work. It was created for the Turing School of Software and Design's Module 3 final showcase project. The goal was to apply the new technologies learned and work within constraints to deliver a product for a niche audience, which helps solve a unique problem.`}</p>
