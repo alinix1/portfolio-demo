@@ -369,6 +369,27 @@ const resume = () => {
         </div>
         <div className="py-6">
           <p className="italic">
+            <span className="font-bold italic">Google</span>
+            <span className="px-2">|</span>Remote
+          </p>
+          <p className="py-1 italic">
+            Certificate in UX Design (In Progress 2025)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Learn the foundations of UX design, including empathizing with
+              users,
+              <br />
+              building wireframes and prototypes,
+              <br />
+              conducting research to test your designs,
+              <br />
+              and discover how to effectively utilize AI in UX design.
+            </li>
+          </ul>
+        </div>
+        <div className="py-6">
+          <p className="italic">
             <span className="font-bold italic">AWS</span>
             <span className="px-2">|</span>Remote
           </p>
