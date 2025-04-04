@@ -159,12 +159,12 @@ const resume = () => {
             <li>
               Optimized backend by analyzing Firebase and Firestore functions,
               documenting reusable elements, enhancing the ERD, and initiating
-              code refactoring for future scalability and reuse.
+              code refactoring for future scalability and&nbsp;reuse.
             </li>
             <li>
               Developed features using React, collaborated with designers on
-              Figma hi-fi wireframes, and implemented Context API for global
-              state management.
+              Figma high-fidelity wireframes, and implemented Context API for
+              global state management.
             </li>
             <li>
               Contributed to agile workflow processes by collaborating with
