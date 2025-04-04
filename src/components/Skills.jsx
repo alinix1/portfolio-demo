@@ -40,21 +40,21 @@ const Skills = () => {
         <div className="grid xs: grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
           <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
-              href="https://www.chartjs.org/"
+              href="https://stripe.com/"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="View Chart.JS"
+              aria-label="View Stripe"
             >
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src={chartImg}
+                    src={stripeImg}
                     width="64px"
                     height="64px"
-                    alt="Logo for Chart.js"
+                    alt="Logo for Stripe"
                   />
                 </div>
-                <h3 className="text-center sm:text-xs md:text-lg">CHART.JS</h3>
+                <h3 className="text-center sm:text-xs md:text-lg">STRIPE</h3>
                 <div className="flex flex-col items-center justify-center"></div>
               </div>
             </a>
