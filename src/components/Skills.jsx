@@ -537,7 +537,7 @@ const Skills = () => {
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <h3>ESLint</h3>
+                  <h3>ESLINT</h3>
                 </div>
               </div>
             </a>
