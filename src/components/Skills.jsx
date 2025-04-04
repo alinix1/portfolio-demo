@@ -519,6 +519,29 @@ const Skills = () => {
               </div>
             </a>
           </div>
+
+          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
+            <a
+              href="https://eslint.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View ESLint"
+            >
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
+                <div className="m-auto">
+                  <Image
+                    src={esLintImg}
+                    width="64px"
+                    height="64px"
+                    alt="Logo for ESLint"
+                  />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>ESLint</h3>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
