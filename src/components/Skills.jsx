@@ -1,5 +1,5 @@
 import React from "react";
-import chartImg from "../skills/chart.png";
+import stripeImg from "../skills/stripe.png";
 import sassImg from "../skills/sass.png";
 import cssImg from "../skills/css-html.png";
 import gitImg from "../skills/git.png";
@@ -20,6 +20,7 @@ import pytestImg from "../skills/pytest.png";
 import pythonImg from "../skills/python.png";
 import reactTestingImg from "../skills/react-testing-library.png";
 import typescriptImg from "../skills/typescript.png";
+import esLintImg from "../skills/esLintImg.png";
 import Image from "next/image";
 
 const Skills = () => {
