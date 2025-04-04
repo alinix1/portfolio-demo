@@ -66,7 +66,7 @@ const resume = () => {
             <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">CSS3</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">SASS (SCSS)</span>
+            <span className="px-2 sm:w-full md:w-auto">SASS/SCSS</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">Material UI</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
@@ -100,13 +100,13 @@ const resume = () => {
             <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">RESTful APIs</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">
-              Apollo Client GraphQL
-            </span>
+            <span className="px-2 sm:w-full md:w-auto">Stripe</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">Figma</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">Express.js</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">Knex.js</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">PostgreSQL</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
@@ -127,6 +127,8 @@ const resume = () => {
             <span className="px-2 sm:w-full md:w-auto">Node.js</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">npm & yarn</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">ESLint</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">Agile Workflow</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
