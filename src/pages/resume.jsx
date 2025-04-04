@@ -226,9 +226,9 @@ const resume = () => {
               to empower and inform other engineers.
             </li>
             <li>
-              Utilizing Core Mapper, Azure Functions API, and React, we aimed to
-              streamline PowerPoint conversion, eliminating manual uploading by
-              implementing a server-side Python solution; ensuring efficiency,
+              Utilized Core Mapper, Azure Functions API, and React to streamline
+              PowerPoint conversion, eliminating manual uploading by
+              implementing a server-side Python solution—ensuring efficiency,
               cost-effectiveness, and data integrity.
             </li>
             <li>
@@ -250,9 +250,10 @@ const resume = () => {
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
               Wrote 10+ end-to-end test scripts using Playwright and codegen on
-              the front-end to improve application security and reliability
-              through configuring the scripts into nightly test runs and status
-              reports.
+              the front-end to improve application security,
+              <br />
+              and reliability through configuring the scripts into nightly test
+              runs and status reports.
             </li>
             <li>
               Worked on the backend with data pipelines and Python/Pandas for
