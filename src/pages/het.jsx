@@ -16,37 +16,33 @@ const equilibrium = () => {
             src={project3}
             alt="Project three background"
           />
-          <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Equilibrium</h2>
-            <h3>React JS</h3>
-          </div>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
-        <div className="col-span-4">
+        <div className="col-span-4 space-y-4 py-6">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>{`This web application provides a list of therapist cards with additional information/details along with mental health resources to adults with limited financial means. It was created with both a front-end and back-end team of Turing students utilizing React framework, Ruby on Rails, and GraphQL.`}</p>
+          <p>{`The Health Equity Tracker aims to give a detailed view of health outcomes by race, ethnicity, sex, socioeconomic status, and other critical factors. Our hope is that it will help policymakers understand what resources and support affected communities need to be able to improve their outcomes.`}</p>
           <a
-            href="https://github.com/IOTNBO-Capstone/Equilibrium-FE"
+            href="https://github.com/alinix1/health-equity-tracker"
             target="_blank"
             rel="noreferrer"
-            aria-label="View Code Equilibrium"
+            aria-label="View Code Health Equity Tracker"
           >
             <button type="button" className="px-8 py-2 mt-4 mr-8">
               Code
             </button>
           </a>
-          {/* <a
-            href="https://equilibrium-iotnbo.netlify.app/"
+          <a
+            href="https://healthequitytracker.org/"
             target="_blank"
             rel="noreferrer"
-            aria-label="View Demo Equilibrium"
+            aria-label="View Demo Health Equity Tracker"
           >
             <button type="button" className="px-8 py-2 mt-4">
               Demo
             </button>
-          </a> */}
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
@@ -54,23 +50,23 @@ const equilibrium = () => {
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-700 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
+                Playwright
+              </p>
+              <p className="text-gray-700 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Python
+              </p>
+              <p className="text-gray-700 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
                 React
               </p>
               <p className="text-gray-700 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                React Router
+                TypeScript
               </p>
               <p className="text-gray-700 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Cypress
-              </p>
-              <p className="text-gray-700 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Apollo GraphQL
-              </p>
-              <p className="text-gray-700 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Netlify
+                GitHub Actions
               </p>
             </div>
           </div>
