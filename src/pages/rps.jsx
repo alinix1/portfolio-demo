@@ -16,14 +16,10 @@ const beats4devs = () => {
             src={project4}
             alt="Project four background"
           />
-          <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Rock Paper Scissors</h2>
-            <h3>Vanilla JS</h3>
-          </div>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
-        <div className="col-span-4">
+        <div className="col-span-4 space-y-4 py-6">
           <p>Project</p>
           <h2>Overview</h2>
           <p>{`Rock, Paper, Scissors is a web application that allows users to play the game of Rock, Paper, Scissors virtually against a computer. The classic game has the following rules: rock crushes scissors >> scissors cuts paper >> paper covers rock. The difficult option includes lizard and spock for additional challenges and strategies.`}</p>
