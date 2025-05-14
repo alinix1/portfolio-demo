@@ -153,6 +153,49 @@ const resume = () => {
         </h5>
         <div className="py-6">
           <p className="italic">
+            <span className="font-bold italic">Health Equity Tracker</span>
+            <span className="px-2">|</span>Remote
+          </p>
+          <p className="py-1 italic">
+            Software Engineer Intern/Software Engineering and Education
+            Development (SEED) Program (11/2023 - present)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Wrote end-to-end test scripts using Playwright and codegen on the
+              front-end to improve application security,
+              <br />
+              and reliability through configuring the scripts into nightly test
+              runs and status reports.
+            </li>
+            <li>
+              Worked on the backend with data pipelines and Python/Pandas for
+              data manipulation to improve ease of data processing
+              <br />
+              and consumption into Google Big Query.
+            </li>
+            <li>
+              Performed unit testing of Python utility functions with Pytest to
+              ensure expected behavior and prevent regressions.
+            </li>
+            <li>
+              Engaged in monthly code reviews on GitHub to collaboratively
+              polish code and make sure it&apos;s ready for production.
+            </li>
+            <li>
+              Developed the frontend using React and TypeScript to integrate new
+              datasets, enhancing data visibility and accessibility.
+            </li>
+            <li>
+              Refactored visualization components from Vega to D3, reducing
+              dependencies by 8.6% and decreasing package size by 30%,
+              <br />
+              significantly improving application performance.
+            </li>
+          </ul>
+        </div>
+        <div className="py-6">
+          <p className="italic">
             <span className="font-bold italic">makeitMVP</span>
             <span className="px-2">|</span>Remote
           </p>
