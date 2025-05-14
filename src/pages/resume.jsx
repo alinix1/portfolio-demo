@@ -385,6 +385,41 @@ const resume = () => {
         </div>
         <div className="py-6">
           <p className="italic">
+            <span className="font-bold italic">IBM</span>
+            <span className="px-2">|</span>Remote
+          </p>
+          <p className="py-1 italic">
+            AI Product Manager Professional Certificate (In Progress 2025)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Understanding product management fundamentals, roles, and
+              navigating the entire product lifecycle from concept to launch.
+            </li>
+            <li>
+              Creating essential product artifacts: product concepts, vision
+              statements, and project charters.
+            </li>
+            <li>
+              Developing comprehensive checklists for product qualification,
+              launch, delivery, and retirement.
+            </li>
+            <li>
+              Managing Agile development through product backlog creation and
+              sprint planning.
+            </li>
+            <li>
+              Using data visualization tools like burndown charts to forecast
+              and meet sprint goals.
+            </li>
+            <li>
+              Applying AI and prompt engineering techniques to enhance product
+              development.
+            </li>
+          </ul>
+        </div>
+        <div className="py-6">
+          <p className="italic">
             <span className="font-bold italic">Google</span>
             <span className="px-2">|</span>Remote
           </p>
