@@ -245,10 +245,10 @@ const resume = () => {
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Transformed a prototype into Strategy Inspiration Bot, an MVP and
-              single-page app within 1-3 months. Collaborated with design and
-              engineering teams using Figma, React, and Material UI to deliver
-              an intuitive, user-friendly web application.
+              Developed Strategy Inspiration Bot MVP using React and Material
+              UI, reducing project development time by 40% and enhancing team
+              collaboration through cross-functional design and engineering work
+              during a 3-month project timeline.
             </li>
           </ul>
         </div>
