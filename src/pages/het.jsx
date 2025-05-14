@@ -79,4 +79,4 @@ const healthequitytracker = () => {
   );
 };
 
-export default equilibrium;
+export default healthequitytracker;
