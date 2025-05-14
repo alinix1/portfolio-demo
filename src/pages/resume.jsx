@@ -205,8 +205,13 @@ const resume = () => {
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
               Optimized backend by analyzing Firebase and Firestore functions,
-              documenting reusable elements, enhancing the ERD, and initiating
-              code refactoring for future scalability and&nbsp;reuse.
+              documenting reusable elements, enhancing the Entity Relationship
+              Diagram (ERD), and initiating code refactoring for future
+              scalability and&nbsp;reuse.
+            </li>
+            <li>
+              Reduced backend complexity by 25% and accelerating development
+              efficiency during the sprint.
             </li>
             <li>
               Developed features using React, collaborated with designers on
