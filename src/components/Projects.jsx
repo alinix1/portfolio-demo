@@ -37,9 +37,9 @@ const Projects = () => {
           </div>
           <div className="project-card rounded-lg overflow-hidden">
             <ProjectItem
-              title="Rock Paper Scissors App"
+              title="Holistic Health Haven"
               backgroundImg={project4}
-              projectUrl="/rps"
+              projectUrl="/holistic"
             />
           </div>
         </div>
