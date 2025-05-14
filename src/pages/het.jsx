@@ -4,7 +4,7 @@ import project3 from "../projects/project3.png";
 import Link from "next/link";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-const equilibrium = () => {
+const healthequitytracker = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
