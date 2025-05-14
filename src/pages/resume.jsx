@@ -114,6 +114,10 @@ const resume = () => {
             <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">SQL</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">AWS</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">Vercel</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">MVC</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">VSCode</span>
