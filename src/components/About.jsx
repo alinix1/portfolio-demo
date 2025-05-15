@@ -32,11 +32,11 @@ const About = () => {
               Recently, I have completed various internships and volunteer
               projects. I have deepened my understanding of full stack web
               development along with independent learning in TypeScript,
-              responsive design, Firebase/Firestore, and PostgreSQL for
+              responsive design, Firebase/Firestore, MongoDB, and PostgreSQL for
               non-relational and relational databases. I am currently expanding
               my toolkit by learning about LLMs, exploring Vue.js, and
-              implementing Bootstrap in an upcoming project this year. In my
-              free time, I enjoy traveling, climbing, skiing, attending
+              implementing Daisy UI in an upcoming project later this year. In
+              my free time, I enjoy traveling, climbing, skiing, attending
               concerts, drawing, and spending time with my dog.
             </p>
           </div>
