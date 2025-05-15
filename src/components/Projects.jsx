@@ -16,21 +16,21 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <div className="project-card rounded-lg overflow-hidden">
             <ProjectItem
-              title="NY Times News App"
+              title="NY Times News"
               backgroundImg={project1}
               projectUrl="/news"
             />
           </div>
           <div className="project-card rounded-lg overflow-hidden">
             <ProjectItem
-              title="Beats 4 Devs App"
+              title="Beats 4 Devs"
               backgroundImg={project2}
               projectUrl="/beats"
             />
           </div>
           <div className="project-card rounded-lg overflow-hidden">
             <ProjectItem
-              title="Health Equity Tracker App"
+              title="Health Equity Tracker"
               backgroundImg={project3}
               projectUrl="/het"
             />
