@@ -256,7 +256,7 @@ const resume = () => {
         </div>
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold italic">The Commons XR </span>
+            <span className="font-bold italic">The Commons XR</span>
             <span className="px-2">|</span>Remote
           </p>
           <p className="py-1 italic">
