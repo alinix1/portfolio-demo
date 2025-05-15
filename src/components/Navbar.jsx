@@ -22,7 +22,7 @@ const Navbar = () => {
       router.asPath === "/het" ||
       router.asPath === "/holistic"
     ) {
-      setNavBg("transparent");
+      setNavBg("rgba(0, 0, 0, 0.5)");
       setLinkColor("#ecf0f3");
     } else {
       setNavBg("#ecf0f3");
