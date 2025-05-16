@@ -19,12 +19,48 @@ const holistichealthhaven = () => {
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
-        <div className="col-span-4 space-y-4 py-6">
+        <div className="col-span-4 space-y-4 py-8">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>{`This is an e-commerce web application built to provide a curated selection of holistic health products for purchase, offering a seamless and user-friendly shopping experience.
-
-Many individuals struggle to find natural and sustainable products that truly support their well-being. Holistic Health Haven addresses this need by offering organic remedies, herbal supplements, and mindfulness tools designed to empower users to embrace a balanced, conscious lifestyle.`}</p>
+          <p>{`An e-commerce web application built to provide a curated selection of holistic health products for purchase, offering a seamless and user-friendly shopping experience. Many individuals struggle to find natural and sustainable products that truly support their well-being. Holistic Health Haven addresses this need by offering organic remedies, herbal supplements, and mindfulness tools designed to empower users to embrace a balanced, conscious lifestyle.`}</p>
+          <div className="project-details space-y-10">
+            <div className="technical-highlights space-y-6 border-l-4 border-gray-700 pl-4">
+              <h4 className="text-xl font-medium mb-4">Technical Highlights</h4>
+              <ul className="space-y-3">
+                {" "}
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>{" "}
+                  <span>
+                    This is a full-stack application built on{" "}
+                    <strong>PERN</strong> stack (PostgreSQL, Express, React,
+                    Node.js) with TypeScript.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>
+                    Implemented WebP image optimization reducing file sizes by{" "}
+                    <strong className="text-gray-700">98.9%</strong>.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>
+                    Improved Lighthouse performance score from{" "}
+                    <strong className="text-gray-700">72 to 94</strong>.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>
+                    Reduced JavaScript bundle size by{" "}
+                    <strong className="text-gray-700">14%</strong> (564KB →
+                    486KB) enhancing load times and user experience.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
           <a
             href="https://github.com/alinix1/holistic-health-haven-fe1"
             target="_blank"
@@ -61,6 +97,22 @@ Many individuals struggle to find natural and sustainable products that truly su
               <p className="text-gray-700 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 ESLint
+              </p>
+              <p className="text-gray-700 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Express
+              </p>
+              <p className="text-gray-700 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Knex
+              </p>
+              <p className="text-gray-700 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                PostgreSQL
+              </p>
+              <p className="text-gray-700 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                AWS
               </p>
               <p className="text-gray-700 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
