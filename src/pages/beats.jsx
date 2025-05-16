@@ -19,11 +19,41 @@ const beats4devs = () => {
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
-        <div className="col-span-4 space-y-4 py-6">
+        <div className="col-span-4 space-y-4 py-8">
           <p>Project</p>
           <h2>Overview</h2>
           <p>{`This is a web application built to provide a particular selection of music to facilitate focus while at work. It was created for the Turing School of Software and Design's Module 3 final showcase project. The goal was to apply the new technologies learned and work within constraints to deliver a product for a niche audience, which helps solve a unique problem.`}</p>
-
+          <div className="project-details space-y-10">
+            <div className="technical-highlights space-y-6 border-l-4 border-gray-700 pl-4">
+              <h4 className="text-xl font-medium mb-4">Technical Highlights</h4>
+              <ul className="space-y-3">
+                {" "}
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>
+                    Implemented responsive routing architecture with React
+                    Router for seamless user navigation and experience.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>
+                    Developed a music focused application using React with Redux
+                    Toolkit and built a custom Express.js server to handle API
+                    requests.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>
+                    Created extensive test suite with Cypress, achieving{" "}
+                    <strong className="text-gray-700">90%</strong> test coverage
+                    across critical user flows.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
           <a
             href="https://github.com/alinix1/showcase-project-fe"
             target="_blank"
