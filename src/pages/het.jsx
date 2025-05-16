@@ -78,7 +78,15 @@ const healthequitytracker = () => {
               </p>
               <p className="text-gray-700 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
+                Pytest
+              </p>
+              <p className="text-gray-700 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
                 Python
+              </p>
+              <p className="text-gray-700 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Pandas
               </p>
               <p className="text-gray-700 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
@@ -87,10 +95,6 @@ const healthequitytracker = () => {
               <p className="text-gray-700 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 TypeScript
-              </p>
-              <p className="text-gray-700 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                GitHub Actions
               </p>
             </div>
           </div>
