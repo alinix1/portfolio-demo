@@ -65,7 +65,17 @@ const healthequitytracker = () => {
             rel="noreferrer"
             aria-label="View Code Holistic Health Haven"
           >
-            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+            <button className="project-btn px-8 py-2 mt-4 mr-8">Code</button>
+          </a>
+          <a
+            href="https://healthequitytracker.org/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="View Demo Health Equity Tracker"
+          >
+            <button type="button" className="project-btn px-8 py-2 mt-4">
+              Demo
+            </button>
           </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
