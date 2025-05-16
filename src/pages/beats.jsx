@@ -60,7 +60,7 @@ const beats4devs = () => {
             rel="noreferrer"
             aria-label="View Code Beats 4 Devs"
           >
-            <button type="button" className="px-8 py-2 mt-4 mr-8">
+            <button type="button" className="project-btn px-8 py-2 mt-4 mr-8">
               Code
             </button>
           </a>
@@ -70,7 +70,7 @@ const beats4devs = () => {
             rel="noreferrer"
             aria-label="View Demo Beats 4 Devs"
           >
-            <button type="button" className="px-8 py-2 mt-4">
+            <button type="button" className="project-btn px-8 py-2 mt-4">
               Demo
             </button>
           </a>
