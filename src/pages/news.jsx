@@ -19,11 +19,54 @@ const nytimesnews = () => {
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
-        <div className="col-span-4 space-y-4 py-6">
+        <div className="col-span-4 space-y-4 py-8">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>{`This is a web application built to provide a selection of news articles to keep you in-the-know on the top news stories. It allows for an easy way to interact with articles from the New York Times Top Stories API`}</p>
-
+          <p>{`This is a web application built to provide a selection of news articles to keep you in-the-know on the top news stories. It allows for an easy way to interact with articles from the New York Times Top Stories API.`}</p>
+          <div className="project-details space-y-10">
+            <div className="technical-highlights space-y-6 border-l-4 border-gray-700 pl-4">
+              <h4 className="text-xl font-medium mb-4">Technical Highlights</h4>
+              <ul className="space-y-3">
+                {" "}
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>
+                    Implemented React Hooks architecture, migrating from
+                    class-based components, reducing code by {""}
+                    <strong className="text-gray-700">20%</strong>.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>
+                    Transitioned from CSS to SASS, creating a modular design
+                    system with reusable components.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>
+                    Integrated the New York Times API with robust error handling
+                    and loading states.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>
+                    Achieved perfect accessibility score of{" "}
+                    <strong className="text-gray-700">100</strong>.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>
+                    Implemented comprehensive testing strategy with both Cypress
+                    and Playwright.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
           <a
             href="https://github.com/alinix1/ny-times-news-reader"
             target="_blank"
