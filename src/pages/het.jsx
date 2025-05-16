@@ -19,29 +19,53 @@ const healthequitytracker = () => {
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
-        <div className="col-span-4 space-y-4 py-6">
+        <div className="col-span-4 space-y-4 py-8">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>{`The Health Equity Tracker aims to give a detailed view of health outcomes by race, ethnicity, sex, socioeconomic status, and other critical factors. Our hope is that it will help policymakers understand what resources and support affected communities need to be able to improve their outcomes.`}</p>
-          <a
-            href="https://github.com/alinix1/health-equity-tracker"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="View Code Health Equity Tracker"
-          >
-            <button type="button" className="px-8 py-2 mt-4 mr-8">
-              Code
-            </button>
-          </a>
+          <p>{`The Health Equity Tracker aims to give a detailed view of health outcomes by race, ethnicity, sex, socioeconomic status, and other critical factors. Our hope is that it will help policymakers understand what
+                resources and support affected communities need to be able to
+                improve their outcomes.`}</p>
+          <div className="project-details space-y-10">
+            <div className="technical-highlights space-y-6 border-l-4 border-gray-700 pl-4">
+              <h4 className="text-xl font-medium mb-4">Technical Highlights</h4>
+              <ul className="space-y-3">
+                {" "}
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>
+                    Built data pipelines using Python/Pandas to streamline data
+                    processing and consumption into Big Query.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>
+                    Refactored visualization components from Vega to D3,
+                    reducing dependencies by{" "}
+                    <strong className="text-gray-700">8.6%</strong> and
+                    decreasing package size by {""}{" "}
+                    <strong className="text-gray-700">30%</strong>,
+                    significantly improving application performance.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>
+                    Developed frontend or client-side using React and TypeScript
+                    to integrate new datasets, enhancing data accessibility and
+                    visibility.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
           <a
             href="https://healthequitytracker.org/"
             target="_blank"
             rel="noreferrer"
-            aria-label="View Demo Health Equity Tracker"
+            aria-label="View Code Holistic Health Haven"
           >
-            <button type="button" className="px-8 py-2 mt-4">
-              Demo
-            </button>
+            <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
