@@ -28,8 +28,10 @@ html {
   h2 {
     @apply text-3xl sm:text-4xl;
   }
+}
 
-  button {
+@layer components {
+  .project-btn {
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#272A21] to-[#A7AF99] text-white;
   }
 }
