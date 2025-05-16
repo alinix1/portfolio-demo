@@ -73,7 +73,7 @@ const nytimesnews = () => {
             rel="noreferrer"
             aria-label="View Code NY Times News"
           >
-            <button type="button" className="px-8 py-2 mt-4 mr-8">
+            <button type="button" className="project-btn px-8 py-2 mt-4 mr-8">
               Code
             </button>
           </a>
@@ -83,7 +83,7 @@ const nytimesnews = () => {
             rel="noreferrer"
             aria-label="View Demo NY Times News"
           >
-            <button type="button" className="px-8 py-2 mt-4">
+            <button type="button" className="project-btn px-8 py-2 mt-4">
               Demo
             </button>
           </a>
