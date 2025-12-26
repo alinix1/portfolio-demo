@@ -46,7 +46,7 @@ const Main = () => {
     >
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className="uppercase text-sm tracking-widest text-[#070400] dark:text-slate-200 animate-moveInRight">{`LET'S BUILD SOMETHING TOGETHER`}</p>
+          <p className="uppercase text-sm tracking-widest text-[#070400] dark:text-slate-200 animate-moveInRight">{`LET'S TURN DATA INTO IMPACT`}</p>
           <h1 className="py-4 text-[#070400] dark:text-slate-100">
             Hi, I&#39;m{" "}
             <span className="text-gray-900 dark:text-[#F7F5F3]"> Ali</span>
@@ -55,15 +55,17 @@ const Main = () => {
             className="py-2 text-10xl font-bold bg-gradient-to-r from-[#2B1A14] via-[#7A6456] to-[#1A120E]
  dark:from-[#3E1710] dark:via-[#F7F5F3] dark:to-[#2D322E] text-transparent bg-clip-text"
           >
-            A Front-End Web Developer
+            A Data Analyst
           </h1>
           <p className="py-4 text-[#070400] max-w-[70%] m-auto dark:text-slate-200">
-            I&#39;m a frontend software engineer who enjoys building and
-            designing exceptional digital experiences. Currently, I&#39;m
-            focused on building responsive front-end web applications while
-            applying skills in TypeScript, Stripe and backend technologies such
-            as Node and PostgreSQL. I have a master&#39;s degree in Public
-            Health and a concentration in biostatistics.
+            I help teams turn complex data into clear, actionable insights,
+            combining my Biostatistics Master&#39;s with a healthcare analytics
+            background to inform high-impact decisions. Whether building data
+            pipelines, creating visualizations that make health data
+            understandable to the public, or translating analysis into
+            actionable recommendations for stakeholders, I pair data with
+            strategy and heart. What drives me? Using data to create measurable
+            social impact and seeing insights spark real change.
           </p>
           <div className="flex items-center justify-between max-w-[350px] m-auto py-4">
             <a
@@ -134,8 +136,8 @@ const Main = () => {
               className="z-0 rounded-xl opacity-2"
               src={background}
               alt="photo of trees/plants"
-              width="1500"
-              height="1500"
+              width="2000"
+              height="2000"
             />
           </div>
         </div>

@@ -40,8 +40,8 @@ const resume = () => {
         <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
           <div className="hidden sm:block">
             <p>
-              Frontend Software Development <span className="px-1">|</span>{" "}
-              Master of Public Health (MPH), concentration in biostatistics{" "}
+              Data Analytics <span className="px-1">|</span> Master of Public
+              Health (MPH), concentration in biostatistics{" "}
             </p>
           </div>
           <div className="block sm:hidden">
@@ -51,74 +51,60 @@ const resume = () => {
           </div>
         </div>
         <p>
-          {`I am an enthusiastic, highly motivated entry-level front-end developer with a solid educational background in Public Health & Biostatistics, Applied Data Science, and Software Development. I completed a seven-month accelerated coding program for front-end development in Vanilla JavaScript, focusing on the React framework.`}
+          {`I am a Data Analyst with a Master of Public Health in Biostatistics and software development experience, combining data science, analytics, and healthcare expertise to turn complex data into actionable insights that improve lives.`}
         </p>
         <div className="text-center py-4">
           <h5 className="text-center underline text-[18px] py-2">
             Technical Skills
           </h5>
           <div className="py-2 flex flex-wrap sm:justify-start md:justify-center">
-            <span className="px-2 sm:w-full md:w-auto">JavaScript</span>
-            <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">TypeScript</span>
-            <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">HTML5/JSX</span>
-            <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">CSS3</span>
-            <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">SASS/SCSS</span>
-            <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">Material UI</span>
-            <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">Tailwind CSS</span>
+            <span className="px-2 sm:w-full md:w-auto">SQL</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">Python</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">Pandas</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">Mocha & Chai</span>
+            <span className="px-2 sm:w-full md:w-auto">Numpy</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">
-              React Testing Library
-            </span>
+            <span className="px-2 sm:w-full md:w-auto">Tableau</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">Cypress.io</span>
+            <span className="px-2 sm:w-full md:w-auto">Matplotlib</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">Playwright</span>
+            <span className="px-2 sm:w-full md:w-auto">Seaborn</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">Pytest</span>
-            <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">React.js</span>
-            <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">React Hooks</span>
-            <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">React Router</span>
-            <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">Next.js</span>
-            <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">Redux Toolkit</span>
-            <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">RESTful APIs</span>
-            <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">Stripe</span>
-            <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">Figma</span>
-            <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">Express.js</span>
-            <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">Knex.js</span>
+            <span className="px-2 sm:w-full md:w-auto">Plotly</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">PostgreSQL</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">Knex.js</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">Firebase</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">SQL</span>
+            <span className="px-2 sm:w-full md:w-auto">Snowflake</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">AWS</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">Vercel</span>
+            <span className="px-2 sm:w-full md:w-auto">BigQuery</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">MVC</span>
+            <span className="px-2 sm:w-full md:w-auto">JavaScript</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">TypeScript</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">React.js</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">Express.js</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">HTML5</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">CSS3</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">RESTful APIs</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">Excel</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">Google Sheets</span>
+            <span className="px-2 sm:w-full md:w-auto">|</span>
+            <span className="px-2 sm:w-full md:w-auto">SAS</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">VSCode</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
@@ -126,23 +112,9 @@ const resume = () => {
             <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">GitHub</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">Webpack</span>
+            <span className="px-2 sm:w-full md:w-auto">dbt</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">Node.js</span>
-            <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">npm & yarn</span>
-            <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">ESLint</span>
-            <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">Agile Workflow</span>
-            <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">
-              Object Oriented Programming (OOP)
-            </span>
-            <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">
-              Test Driven Development (TDD)
-            </span>
+            <span className="px-2 sm:w-full md:w-auto">Jupyter Notebook</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">UI/UX</span>
           </div>
@@ -151,6 +123,40 @@ const resume = () => {
         <h5 className="text-center underline text-[18px] py-4">
           Professional Experience
         </h5>
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">Freelance</span>
+            <span className="px-2">|</span>Remote
+          </p>
+          <p className="py-1 italic">
+            Frontend Developer/UX Designer (7/2025 - present)
+          </p>
+          <p className="py-1">
+            I help entrepreneurs, nonprofits, and health & wellness businesses
+            build professional websites that convert visitors into clients
+            through strategic UX design and modern web development.
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Led end-to-end UX design process for spiritual platform,
+              delivering user personas, journey maps, wireframes, mockups, and
+              interactive prototypes for healers, mystics, and spiritual
+              entrepreneurs.
+            </li>
+            <li>
+              Designed MVP user experience for social co-creation platform,
+              conducting stakeholder interviews, analyzing user feedback, and
+              creating user flows and wireframes for collaborative skill-sharing
+              web application within a 2-week sprint.
+            </li>
+            <li>
+              Conducted UX audit and redesign of holistic health e-commerce app
+              through competitor analysis and usability heuristics, implementing
+              evidence-based improvements to streamline navigation, product
+              discoverability, and checkout flow.
+            </li>
+          </ul>
+        </div>
         <div className="py-6">
           <p className="italic">
             <span className="font-bold italic">
@@ -164,35 +170,35 @@ const resume = () => {
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Wrote end-to-end test scripts using Playwright and codegen on the
-              front-end to improve application security,
-              <br />
-              and reliability through configuring the scripts into nightly test
-              runs and status reports.
+              Built ETL data pipelines using Python and Pandas to extract,
+              transform, and load maternal mortality data from multiple sources
+              into BigQuery, streamlining data processing workflows and
+              supporting reporting and analysis needs.
             </li>
             <li>
-              Worked on the backend with data pipelines and Python/Pandas for
-              data manipulation to improve ease of data processing
-              <br />
-              and consumption into Google Big Query.
+              Refactored data visualizations from Vega to D3, reducing
+              dependencies by 8.6% and package size by 30%, improving
+              performance and enabling policymakers and researchers to interpret
+              health equity metrics more effectively.
+            </li>
+            <li>
+              {" "}
+              Integrated new public health datasets through frontend development
+              in React/TypeScript, enhancing data visibility and accessibility.
+            </li>
+            <li>
+              Developed automated end-to-end test scripts using Playwright for
+              nightly test runs to ensure application functionality and
+              reliability.
             </li>
             <li>
               Performed unit testing of Python utility functions with Pytest to
               ensure expected behavior and prevent regressions.
             </li>
             <li>
-              Engaged in monthly code reviews on GitHub to collaboratively
-              polish code and make sure it&apos;s ready for production.
-            </li>
-            <li>
-              Developed the frontend using React and TypeScript to integrate new
-              datasets, enhancing data visibility and accessibility.
-            </li>
-            <li>
-              Refactored visualization components from Vega to D3, reducing
-              dependencies by 8.6% and decreasing package size by 30%,
-              <br />
-              significantly improving application performance.
+              {" "}
+              Engaged in code reviews on GitHub to collaboratively polish code
+              and make sure it’s ready for production.
             </li>
           </ul>
         </div>
@@ -216,9 +222,9 @@ const resume = () => {
               efficiency during the sprint.
             </li>
             <li>
-              Developed features using React, collaborated with designers on
-              Figma high-fidelity wireframes, and implemented Context API for
-              global state management.
+              Developed and updated features using React, collaborated with
+              designers on Figma high-fidelity wireframes, and implemented
+              Context API for global state management.
             </li>
             <li>
               Contributed to agile workflow processes by collaborating with
@@ -232,25 +238,8 @@ const resume = () => {
               overall feature performance and functionality.
             </li>
             <li>
-              Tested backend functions within the frontend app, ensuring
-              integration with Firebase/Firestore.
-            </li>
-          </ul>
-        </div>
-        <div className="py-6">
-          <p className="italic">
-            <span className="font-bold italic">Ashoka</span>
-            <span className="px-2">|</span>Remote
-          </p>
-          <p className="py-1 italic">
-            Volunteer Frontend Developer (3/2024 - 6/2024)
-          </p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li>
-              Developed Strategy Inspiration Bot MVP using React and Material
-              UI, reducing project development time by 40% and enhancing team
-              collaboration through cross-functional design and engineering work
-              during a 3-month project timeline.
+              Tested backend functions within the frontend application, ensuring
+              integration with Firebase/Firestore for data management.
             </li>
           </ul>
         </div>
@@ -264,14 +253,14 @@ const resume = () => {
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Implemented 8 responsive design prototype features using React and
+              Implemented responsive design prototype features using React and
               Material UI, boosting UX and accessibility.
               <br /> This streamlined access to learning resources and mental
-              health support, significantly improving user engagement by 30%.
+              health support, significantly improving user engagement.
             </li>
             <li>
-              Resolved UI bugs in React, and conducted research on Google
-              Analytics to enhance data-driven decision making.
+              Resolved UI bugs in React, and integrated Google Analytics to
+              enhance data-driven decision making.
             </li>
             <li>
               Contributed to engineering best practices by writing succinct
@@ -289,6 +278,27 @@ const resume = () => {
               Conducted unit testing with React Testing Library of React
               components to ensure functionality and aid debugging, enhancing
               overall code reliability.
+            </li>
+          </ul>
+        </div>
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">Ashoka</span>
+            <span className="px-2">|</span>Remote
+          </p>
+          <p className="py-1 italic">
+            Volunteer Frontend Developer (3/2024 - 6/2024)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Converted a prototype into an MVP and single-page application
+              using Figma, React, and Material UI, delivering an intuitive and
+              user-friendly web application.
+            </li>
+            <li>
+              Sent requests from React to Flask backend and worked alongside
+              OpenAI LLM, facilitating seamless communication between
+              client-side and server-side in AI app.
             </li>
           </ul>
         </div>
@@ -323,14 +333,15 @@ const resume = () => {
               learning.
             </li>
             <li>
-              Assisted in the summary of the F-Score evaluation metric for a
-              machine learning project, which added to overall precision.
-            </li>
-            <li>
               Engineered a thesaurus word recommender program for text utilizing
               an open-source text corpus, Python, and the SpaCy module for
               Natural Language Processing (NLP) to boost vocabulary, clarity,
               and concision for English language writing.
+            </li>
+            <li>
+              Partnered with machine learning engineers and data analysts to
+              analyze and report F-score evaluation metrics for classification
+              models, helping optimize the precision-recall tradeoff.
             </li>
           </ul>
         </div>
@@ -411,7 +422,9 @@ const resume = () => {
             <span className="font-bold italic">Google</span>
             <span className="px-2">|</span>Remote
           </p>
-          <p className="py-1 italic">Certificate in UX Design (July 2025)</p>
+          <p className="py-1 italic">
+            Certificate in UX Design (Completed 2025)
+          </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
               Learn the foundations of UX design, including empathizing with

@@ -11,33 +11,29 @@ const About = () => {
             About
           </p>
           <h2 className="py-4">Who I am</h2>
-          <p className="py-2 text-[#070400] dark:text-slate-300">{`// I ultimately want to work in either med tech or green tech`}</p>
+          <p className="py-2 text-[#070400] dark:text-slate-300 font-bold">{`// Healthcare & Environmental Analytics`}</p>
           <div className="py-2 text-[#070400] dark:text-slate-300">
             <p className="mb-4">
-              I am a graduate of the Front End Engineering program at the Turing
-              School of Software & Design, where I mastered agile workflows and
-              methodologies, Object-Oriented Programming with JavaScript ES6,
-              HTML5, CSS3, and React. I hold a Master of Public Health degree
-              with a concentration in biostatistics and a certificate in data
-              science, emphasizing machine learning, from General Assembly.
+              I am a Data Analyst with a Master of Public Health in
+              Biostatistics and software development experience, combining data
+              science, analytics, and healthcare expertise to turn complex data
+              into actionable insights that improve lives.
             </p>
             <p className="mb-4">
-              I interned as a data scientist at a tech start-up in Denver, CO,
-              working primarily with Python. Before Turing, I worked in home
-              health care, developing strong communication and empathy skills.
-              During the pandemic, I pursued a sequence of math courses to
-              strengthen my analytical abilities.
+              After grad school, I explored different applications of data—from
+              data science and ML to full-stack development—to understand where
+              my skills fit best. Through this exploration, especially my work
+              at Health Equity Tracker building ETL pipelines and analyzing
+              public health data with SQL and Python, I realized my passion is
+              data analysis: extracting insights from complex datasets and
+              communicating findings that drive decisions.
             </p>
             <p className="mb-4">
-              Recently, I have completed various internships and volunteer
-              projects. I have deepened my understanding of full stack web
-              development along with independent learning in TypeScript,
-              responsive design, Firebase/Firestore, MongoDB, and PostgreSQL for
-              non-relational and relational databases. I am currently expanding
-              my toolkit by learning about LLMs, exploring Vue.js, and
-              implementing Daisy UI in an upcoming project later this year. In
-              my free time, I enjoy traveling, climbing, skiing, attending
-              concerts, drawing, and spending time with my dog.
+              I combine strong statistical foundations from my MPH, technical
+              skills in SQL and Python, and healthcare domain expertise. The
+              technical skills I gained along the way—data engineering,
+              full-stack development—make me a stronger analyst who understands
+              how data systems work end-to-end.
             </p>
           </div>
           <p className="py-2 text-[#070400] dark:text-slate-300 font-bold">

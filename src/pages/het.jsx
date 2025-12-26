@@ -33,8 +33,18 @@ const healthequitytracker = () => {
                 <li className="flex items-start">
                   <span className="mr-2">•</span>
                   <span>
-                    Built data pipelines using Python/Pandas to streamline data
-                    processing and consumption into Big Query.
+                    Built ETL data pipelines using Python and Pandas to extract,
+                    transform, and load maternal mortality data from multiple
+                    sources into BigQuery, streamlining data processing and
+                    analysis workflows.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>
+                    Queried BigQuery data using SQL to identify health
+                    disparities across demographic groups and inform policy
+                    decisions.
                   </span>
                 </li>
                 <li className="flex items-start">
@@ -51,16 +61,15 @@ const healthequitytracker = () => {
                 <li className="flex items-start">
                   <span className="mr-2">•</span>
                   <span>
-                    Developed frontend or client-side using React and TypeScript
-                    to integrate new datasets, enhancing data accessibility and
-                    visibility.
+                    Integrated new public health datasets via React/TypeScript
+                    frontend, enhancing data visibility and accessibility.
                   </span>
                 </li>
               </ul>
             </div>
           </div>
           <a
-            href="https://healthequitytracker.org/"
+            href="https://github.com/SatcherInstitute/health-equity-tracker"
             target="_blank"
             rel="noreferrer"
             aria-label="View Code Holistic Health Haven"
