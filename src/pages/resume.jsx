@@ -45,8 +45,10 @@ const resume = () => {
             </p>
           </div>
           <div className="block sm:hidden">
-            <p>Design Oriented</p>
-            <p className="py-2">Web Development</p>
+            <p>Data Analytics</p>
+            <p className="py-2">
+              Master of Public Health (MPH), concentration in biostatistics
+            </p>
             <p>Complex Problem Solving</p>
           </div>
         </div>

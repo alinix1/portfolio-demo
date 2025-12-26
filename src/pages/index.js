@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ali | Front-End Developer</title>
+        <title>Ali | Data Analyst </title>
         <meta
           name="description"
-          content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
+          content="Using data to create measurable social impact and seeing insights spark real change."
         />
         <meta
           name="viewport"
