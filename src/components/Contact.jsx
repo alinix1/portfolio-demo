@@ -6,6 +6,7 @@ import Link from "next/link";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import { HiDownload } from "react-icons/hi";
 
 const Contact = () => {
   return (
@@ -32,6 +33,17 @@ const Contact = () => {
                   I am available for full-time and contract positions. Contact
                   me and let&apos;s talk.
                 </p>
+                <a
+                  href="/Ali_Nix_Data_Analyst_Resume.pdf"
+                  download
+                  className="inline-flex items-center gap-2 px-6 py-3 mt-4
+                  bg-[#272A21] dark:bg-slate-700 text-white rounded-lg
+                  hover:scale-105 ease-in duration-300 shadow-lg
+                  shadow-gray-600"
+                >
+                  <HiDownload size={20} />
+                  Download Resume
+                </a>
               </div>
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>

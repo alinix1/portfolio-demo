@@ -34,6 +34,13 @@ html {
   .project-btn {
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#272A21] to-[#A7AF99] text-white;
   }
+  .skill-icon {
+    filter: brightness(0);
+  }
+
+  .dark .skill-icon {
+    filter: brightness(0) invert(1);
+  }
 }
 
 @keyframes moveInRight {

@@ -130,14 +130,7 @@ const resume = () => {
             <span className="font-bold italic">Freelance</span>
             <span className="px-2">|</span>Remote
           </p>
-          <p className="py-1 italic">
-            Frontend Developer/UX Designer (7/2025 - present)
-          </p>
-          <p className="py-1">
-            I help entrepreneurs, nonprofits, and health & wellness businesses
-            build professional websites that convert visitors into clients
-            through strategic UX design and modern web development.
-          </p>
+          <p className="py-1 italic">Product UX Designer (7/2025 - present)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
               Led end-to-end UX design process for spiritual platform,
@@ -167,8 +160,8 @@ const resume = () => {
             <span className="px-2">|</span>Remote
           </p>
           <p className="py-1 italic">
-            Software Engineer Intern/Software Engineering and Education
-            Development (SEED) Program (11/2023 - present)
+            Data & Software Engineering Intern/Software Engineering and
+            Education Development (SEED) Program (11/2023 - present)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
@@ -178,29 +171,28 @@ const resume = () => {
               supporting reporting and analysis needs.
             </li>
             <li>
+              Queried BigQuery data using SQL to identify health disparities
+              across demographic groups and inform policy decisions.
+            </li>
+            <li>
               Refactored data visualizations from Vega to D3, reducing
               dependencies by 8.6% and package size by 30%, improving
               performance and enabling policymakers and researchers to interpret
               health equity metrics more effectively.
             </li>
             <li>
-              {" "}
               Integrated new public health datasets through frontend development
               in React/TypeScript, enhancing data visibility and accessibility.
             </li>
             <li>
               Developed automated end-to-end test scripts using Playwright for
-              nightly test runs to ensure application functionality and
-              reliability.
+              nightly test runs and unit tests with Pytest to ensure application
+              functionality and code quality.
             </li>
             <li>
-              Performed unit testing of Python utility functions with Pytest to
-              ensure expected behavior and prevent regressions.
-            </li>
-            <li>
-              {" "}
-              Engaged in code reviews on GitHub to collaboratively polish code
-              and make sure it’s ready for production.
+              Collaborated cross-functionally with the team regarding
+              engineering requirements and data pipeline needs to ensure data
+              tracking product aligned with client goals.
             </li>
           </ul>
         </div>
@@ -255,31 +247,18 @@ const resume = () => {
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Implemented responsive design prototype features using React and
-              Material UI, boosting UX and accessibility.
-              <br /> This streamlined access to learning resources and mental
-              health support, significantly improving user engagement.
+              Integrated Google Analytics to track user behavior and support
+              data-driven decisions on retention and engagement.
             </li>
             <li>
-              Resolved UI bugs in React, and integrated Google Analytics to
-              enhance data-driven decision making.
+              Developed 8 responsive UI features using React and Material UI to
+              enhance the accessibility and presentation of mental health and
+              educational resources for XR behavioral analytics platform.
             </li>
             <li>
-              Contributed to engineering best practices by writing succinct
-              code, utilizing version control, collaborating cross-functionally
-              across different teams and departments, and writing documentation
-              to empower and inform other engineers.
-            </li>
-            <li>
-              Utilized Core Mapper, Azure Functions API, and React to streamline
-              PowerPoint conversion, eliminating manual uploading by
-              implementing a server-side Python solution—ensuring efficiency,
-              cost-effectiveness, and data integrity.
-            </li>
-            <li>
-              Conducted unit testing with React Testing Library of React
-              components to ensure functionality and aid debugging, enhancing
-              overall code reliability.
+              Streamlined PowerPoint conversion process using Python and Azure
+              Functions API, eliminating manual uploads and enhancing data
+              integrity and operational efficiency.
             </li>
           </ul>
         </div>
@@ -398,27 +377,6 @@ const resume = () => {
             <span className="px-2">|</span>Psychology
           </p>
         </div>
-        {/* <div className="py-6">
-          <p className="italic">
-            <span className="font-bold italic">Google</span>
-            <span className="px-2">|</span>Remote
-          </p>
-          <p className="py-1 italic">
-            Data Analytics Certificate (In Progress 2025)
-          </p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li>
-              Learn data preparation, processing, and analysis to inform
-              business decisions,
-              <br />
-              create data visualizations and dashboards,
-              <br />
-              conduct statistical analysis and hypothesis testing,
-              <br />
-              and utilize R programming and AI tools for advanced analytics.
-            </li>
-          </ul>
-        </div> */}
         <div className="py-6">
           <p className="italic">
             <span className="font-bold italic">Google</span>

@@ -1,19 +1,19 @@
 import React from "react";
-import gitImg from "../skills/git.png";
-import snowflakeImg from "../skills/snowflake.png";
-import bigqueryImg from "../skills/bigquery.png";
+import gitImg from "../skills/git.svg";
+import snowflakeImg from "../skills/snowflake.svg";
+import bigqueryImg from "../skills/googlebigquery.svg";
 import awsImg from "../skills/aws.png";
-import postgresqlImg from "../skills/postgresql.png";
-import pythonImg from "../skills/python.png";
-import pandasImg from "../skills/pandas.png";
-import numpyImg from "../skills/numpy.png";
+import postgresqlImg from "../skills/postgresql.svg";
+import pythonImg from "../skills/python.svg";
+import pandasImg from "../skills/pandas.svg";
+import numpyImg from "../skills/numpy.svg";
 import sqlImg from "../skills/sql.png";
-import dbtImg from "../skills/dbt.png";
+import dbtImg from "../skills/dbt.svg";
 import tableauImg from "../skills/tableau.png";
 import matplotlibImg from "../skills/matplotlib.png";
-import plotlyImg from "../skills/plotly.png";
+import plotlyImg from "../skills/plotly.svg";
 import excelImg from "../skills/excel.png";
-import jupyterImg from "../skills/jupyter-notebook.png";
+import jupyterImg from "../skills/jupyter.svg";
 import Image from "next/image";
 
 const Skills = () => {
@@ -45,6 +45,7 @@ const Skills = () => {
                     width="64px"
                     height="64px"
                     alt="Logo for Python"
+                    className="skill-icon"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
@@ -55,19 +56,27 @@ const Skills = () => {
           </div>
 
           <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  src={sqlImg}
-                  width="64px"
-                  height="64px"
-                  alt="Logo for SQL"
-                />
+            <a
+              href="https://www.w3schools.com/sql/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View Python"
+            >
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
+                <div className="m-auto">
+                  <Image
+                    src={sqlImg}
+                    width={30}
+                    height={30}
+                    alt="Logo for SQL"
+                    className="skill-icon"
+                  />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>SQL</h3>
+                </div>
               </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>SQL</h3>
-              </div>
-            </div>
+            </a>
           </div>
 
           <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
@@ -84,6 +93,7 @@ const Skills = () => {
                     width="64px"
                     height="64px"
                     alt="Logo for Pandas"
+                    className="skill-icon"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
@@ -107,6 +117,7 @@ const Skills = () => {
                     width="64px"
                     height="64px"
                     alt="Logo for NumPy"
+                    className="skill-icon"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
@@ -127,9 +138,10 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     src={tableauImg}
-                    width="64px"
-                    height="64px"
+                    width={30}
+                    height={30}
                     alt="Logo for Tableau"
+                    className="skill-icon"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
@@ -153,6 +165,7 @@ const Skills = () => {
                     width="64px"
                     height="64px"
                     alt="Logo for PostgreSQL"
+                    className="skill-icon"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
@@ -176,6 +189,7 @@ const Skills = () => {
                     width="64px"
                     height="64px"
                     alt="Logo for Snowflake"
+                    className="skill-icon"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
@@ -199,6 +213,7 @@ const Skills = () => {
                     width="64px"
                     height="64px"
                     alt="Logo for BigQuery"
+                    className="skill-icon"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
@@ -219,9 +234,10 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     src={dbtImg}
-                    width="64px"
-                    height="64px"
+                    width={30}
+                    height={30}
                     alt="Logo for dbt"
+                    className="skill-icon"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
@@ -242,9 +258,10 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     src={awsImg}
-                    width="64px"
-                    height="64px"
+                    width={30}
+                    height={30}
                     alt="Logo for AWS"
+                    className="skill-icon"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
@@ -265,9 +282,10 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     src={matplotlibImg}
-                    width="64px"
-                    height="64px"
+                    width={30}
+                    height={30}
                     alt="Logo for Matplotlib"
+                    className="skill-icon"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
@@ -291,6 +309,7 @@ const Skills = () => {
                     width="64px"
                     height="64px"
                     alt="Logo for Plotly"
+                    className="skill-icon"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
@@ -302,7 +321,7 @@ const Skills = () => {
 
           <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
-              href="https://excel.cloud.microsoft/en-us//"
+              href="https://www.microsoft.com/en-us/microsoft-365/excel"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="View Excel"
@@ -311,9 +330,10 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     src={excelImg}
-                    width="64px"
-                    height="64px"
+                    width={30}
+                    height={30}
                     alt="Logo for Excel"
+                    className="skill-icon"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
@@ -337,6 +357,7 @@ const Skills = () => {
                     width="64px"
                     height="64px"
                     alt="Logo for Jupyter Notebook"
+                    className="skill-icon"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
@@ -360,6 +381,7 @@ const Skills = () => {
                     width="64px"
                     height="64px"
                     alt="Logo for Git"
+                    className="skill-icon"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
