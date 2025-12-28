@@ -52,9 +52,9 @@ const healthequitytracker = () => {
                   <span>
                     Refactored visualization components from Vega to D3,
                     reducing dependencies by{" "}
-                    <strong className="text-gray-700">8.6%</strong> and
+                    <strong className="dark:text-emerald-300">8.6%</strong> and
                     decreasing package size by {""}{" "}
-                    <strong className="text-gray-700">30%</strong>,
+                    <strong className="dark:text-emerald-300">30%</strong>,
                     significantly improving application performance.
                   </span>
                 </li>
@@ -91,27 +91,27 @@ const healthequitytracker = () => {
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Playwright
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Pytest
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Python
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Pandas
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 React
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 TypeScript
               </p>

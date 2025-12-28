@@ -47,8 +47,8 @@ const beats4devs = () => {
                   <span className="mr-2">•</span>
                   <span>
                     Created extensive test suite with Cypress, achieving{" "}
-                    <strong className="text-gray-700">90%</strong> test coverage
-                    across critical user flows.
+                    <strong className="dark:text-emerald-300">90%</strong> test
+                    coverage across critical user flows.
                   </span>
                 </li>
               </ul>
@@ -79,35 +79,35 @@ const beats4devs = () => {
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 JavaScript
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-centerr">
                 <RiRadioButtonFill className="pr-1" />
                 CSS3
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 React
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 React Router
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Redux
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Cypress
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Express
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Heroku
               </p>

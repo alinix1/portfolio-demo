@@ -33,7 +33,7 @@ const nytimesnews = () => {
                   <span>
                     Implemented React Hooks architecture, migrating from
                     class-based components, reducing code by {""}
-                    <strong className="text-gray-700">20%</strong>.
+                    <strong className="dark:text-emerald-300">20%</strong>.
                   </span>
                 </li>
                 <li className="flex items-start">
@@ -54,7 +54,7 @@ const nytimesnews = () => {
                   <span className="mr-2">•</span>
                   <span>
                     Achieved perfect accessibility score of{" "}
-                    <strong className="text-gray-700">100</strong>.
+                    <strong className="dark:text-emerald-300">100</strong>.
                   </span>
                 </li>
                 <li className="flex items-start">
@@ -92,27 +92,27 @@ const nytimesnews = () => {
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 React
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 React Router
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 JavaScript
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 SASS
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Playwright
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Vercel
               </p>

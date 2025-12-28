@@ -98,6 +98,6 @@ html {
 
 .project-card:hover img {
   animation-name: imageZoomIn;
-  animation-duration: 0.7s;
+  animation-duration: 1.5s;
   animation-timing-function: ease-out;
 }

@@ -34,18 +34,18 @@ const holistichealthhaven = () => {
                     Developed a full-stack e-commerce platform for holistic
                     health products using PERN stack, Stripe, and TypeScript;
                     implemented WebP image optimization that reduced file sizes
-                    by <strong className="text-gray-700">98.9%</strong> and
-                    improved Lighthouse performance from{" "}
-                    <strong className="text-gray-700">72 to 94.</strong>
+                    by <strong className="dark:text-emerald-300">98.9%</strong>{" "}
+                    and improved Lighthouse performance from{" "}
+                    <strong className="dark:text-emerald-300">72 to 94.</strong>
                   </span>
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2">•</span>
                   <span>
                     Reduced application bundle size by{" "}
-                    <strong className="text-gray-700">14%</strong> (564 KB → 486
-                    KB) through code splitting and optimization, improving load
-                    times and user experience.
+                    <strong className="dark:text-emerald-300">14%</strong> (564
+                    KB → 486 KB) through code splitting and optimization,
+                    improving load times and user experience.
                   </span>
                 </li>
                 <li className="flex items-start">
@@ -83,55 +83,55 @@ const holistichealthhaven = () => {
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 TypeScript
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 React
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Stripe
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Tailwind CSS
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Formik
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 ESLint
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Express
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Node.js
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Knex.js
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 PostgreSQL
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Sharp
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 AWS
               </p>
-              <p className="text-gray-700 py-2 flex items-center">
+              <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Vercel
               </p>
