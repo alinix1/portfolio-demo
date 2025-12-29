@@ -88,7 +88,7 @@ const nytimesnews = () => {
             </button>
           </a>
         </div>
-        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
+        <div className="col-span-4 md:col-span-1 rounded-xl p-4 shadow-[0_25px_50px_-12px_rgba(0,0,0,0.85)] dark:shadow-[0_25px_50px_-12px_rgba(255,255,255,0.85)]">
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">

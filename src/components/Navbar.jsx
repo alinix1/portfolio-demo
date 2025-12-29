@@ -1,5 +1,4 @@
 import logo from "../assets/logo.png";
-import turing from "../assets/turing.png";
 import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
@@ -221,21 +220,7 @@ const Navbar = () => {
                     <FaGithub />
                   </div>
                 </a>
-                <a
-                  href="https://turing.edu/?ads_cmpid=1064466865&ads_adid=72751730870&ads_matchtype=b&ads_network=g&ads_creative=341753979066&utm_term=turing%20school&ads_targetid=kwd-307330888202&utm_campaign=&utm_source=adwords&utm_medium=ppc&ttv=2&gclid=CjwKCAjwgZCoBhBnEiwAz35RwmJ3vBGdXWFXVxHj0JR2wqXPk-W9Iks-OafCJjDSYfU_9ngTZqPAnhoCyXgQAvD_BwE"
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label="Visit Turing School website"
-                >
-                  <div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <Image
-                      src={turing}
-                      alt="Turing logo"
-                      width="20"
-                      height="30"
-                    />
-                  </div>
-                </a>
+
                 <Link href="/resume" aria-label="View resume">
                   <div className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <BsFillPersonLinesFill />

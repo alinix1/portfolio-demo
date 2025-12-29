@@ -66,7 +66,7 @@ const resume = () => {
             <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">Pandas</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
-            <span className="px-2 sm:w-full md:w-auto">Numpy</span>
+            <span className="px-2 sm:w-full md:w-auto">NumPy</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
             <span className="px-2 sm:w-full md:w-auto">Tableau</span>
             <span className="px-2 sm:w-full md:w-auto">|</span>
@@ -122,9 +122,7 @@ const resume = () => {
           </div>
         </div>
 
-        <h5 className="text-center underline text-[18px] py-4">
-          Professional Experience
-        </h5>
+        <h5 className="text-center underline text-[18px] py-4">Experience</h5>
         <div className="py-6">
           <p className="italic">
             <span className="font-bold italic">Freelance</span>

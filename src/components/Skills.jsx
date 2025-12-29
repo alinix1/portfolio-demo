@@ -31,9 +31,9 @@ const Skills = () => {
 
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <div className="grid xs: grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
-          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
-              href="https://www.python.org/"
+              href="https://www.python.org"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="View Python"
@@ -42,8 +42,8 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     src={pythonImg}
-                    width="64px"
-                    height="64px"
+                    width={30}
+                    height={30}
                     alt="Logo for Python"
                     className="skill-icon"
                   />
@@ -55,12 +55,12 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://www.w3schools.com/sql/"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="View Python"
+              aria-label="View SQL"
             >
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
@@ -79,7 +79,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://pandas.pydata.org/"
               target="_blank"
@@ -103,7 +103,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://numpy.org/"
               target="_blank"
@@ -127,7 +127,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://www.tableau.com/"
               target="_blank"
@@ -151,7 +151,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://www.postgresql.org/"
               target="_blank"
@@ -175,7 +175,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://www.snowflake.com/en/"
               target="_blank"
@@ -199,7 +199,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://cloud.google.com/bigquery"
               target="_blank"
@@ -223,7 +223,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://www.getdbt.com/"
               target="_blank"
@@ -247,7 +247,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://aws.amazon.com/"
               target="_blank"
@@ -271,7 +271,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://matplotlib.org/"
               target="_blank"
@@ -295,7 +295,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://plotly.com/"
               target="_blank"
@@ -319,7 +319,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://www.microsoft.com/en-us/microsoft-365/excel"
               target="_blank"
@@ -343,7 +343,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://jupyter.org/"
               target="_blank"
@@ -367,7 +367,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <div className="p-6 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://git-scm.com/"
               target="_blank"

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import turing from "../assets/turing.png";
 import photo from "../assets/photo.png";
 import background from "../assets/background1.png";
 import Link from "next/link";
@@ -88,22 +87,7 @@ const Main = () => {
                 <FaGithub />
               </div>
             </a>
-            <a
-              href="https://turing.edu/?ads_cmpid=1064466865&ads_adid=72751730870&ads_matchtype=b&ads_network=g&ads_creative=341753979066&utm_term=turing%20school&ads_targetid=kwd-307330888202&utm_campaign=&utm_source=adwords&utm_medium=ppc&ttv=2&gclid=CjwKCAjwgZCoBhBnEiwAz35RwmJ3vBGdXWFXVxHj0JR2wqXPk-W9Iks-OafCJjDSYfU_9ngTZqPAnhoCyXgQAvD_BwE"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Visit Turing School website"
-            >
-              <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <Image
-                  src={turing}
-                  alt="Turing logo"
-                  className=" max-w-[400px]"
-                  width="20"
-                  height="30"
-                />
-              </div>
-            </a>
+
             <Link href="/resume" aria-label="View resume">
               <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <BsFillPersonLinesFill />
