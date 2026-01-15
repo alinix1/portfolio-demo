@@ -34,7 +34,7 @@ const Skills = () => {
           <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://www.python.org"
-              target="_blank"
+              // target="_blank"
               rel="noopener noreferrer"
               aria-label="View Python"
             >
@@ -58,7 +58,7 @@ const Skills = () => {
           <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://www.w3schools.com/sql/"
-              target="_blank"
+              // target="_blank"
               rel="noopener noreferrer"
               aria-label="View SQL"
             >
@@ -82,7 +82,7 @@ const Skills = () => {
           <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://pandas.pydata.org/"
-              target="_blank"
+              // target="_blank"
               rel="noopener noreferrer"
               aria-label="View Pandas"
             >
@@ -106,7 +106,7 @@ const Skills = () => {
           <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://numpy.org/"
-              target="_blank"
+              // target="_blank"
               rel="noopener noreferrer"
               aria-label="View NumPy"
             >
@@ -130,7 +130,7 @@ const Skills = () => {
           <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://www.tableau.com/"
-              target="_blank"
+              // target="_blank"
               rel="noopener noreferrer"
               aria-label="View Tableau"
             >
@@ -154,7 +154,7 @@ const Skills = () => {
           <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://www.postgresql.org/"
-              target="_blank"
+              // target="_blank"
               rel="noopener noreferrer"
               aria-label="View PostgreSQL"
             >
@@ -178,7 +178,7 @@ const Skills = () => {
           <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://www.snowflake.com/en/"
-              target="_blank"
+              // target="_blank"
               rel="noopener noreferrer"
               aria-label="View Snowflake"
             >
@@ -202,7 +202,7 @@ const Skills = () => {
           <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://cloud.google.com/bigquery"
-              target="_blank"
+              // target="_blank"
               rel="noopener noreferrer"
               aria-label="View BigQuery"
             >
@@ -226,7 +226,7 @@ const Skills = () => {
           <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://www.getdbt.com/"
-              target="_blank"
+              // target="_blank"
               rel="noopener noreferrer"
               aria-label="View dbt"
             >
@@ -250,7 +250,7 @@ const Skills = () => {
           <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://aws.amazon.com/"
-              target="_blank"
+              // target="_blank"
               rel="noopener noreferrer"
               aria-label="View AWS"
             >
@@ -274,7 +274,7 @@ const Skills = () => {
           <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://matplotlib.org/"
-              target="_blank"
+              // target="_blank"
               rel="noopener noreferrer"
               aria-label="View Matplotlib"
             >
@@ -298,7 +298,7 @@ const Skills = () => {
           <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://plotly.com/"
-              target="_blank"
+              // target="_blank"
               rel="noopener noreferrer"
               aria-label="View Plotly"
             >
@@ -322,7 +322,7 @@ const Skills = () => {
           <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://www.microsoft.com/en-us/microsoft-365/excel"
-              target="_blank"
+              // target="_blank"
               rel="noopener noreferrer"
               aria-label="View Excel"
             >
@@ -346,7 +346,7 @@ const Skills = () => {
           <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://jupyter.org/"
-              target="_blank"
+              // target="_blank"
               rel="noopener noreferrer"
               aria-label="View Jupyter Notebook"
             >
@@ -370,7 +370,7 @@ const Skills = () => {
           <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
               href="https://git-scm.com/"
-              target="_blank"
+              // target="_blank"
               rel="noopener noreferrer"
               aria-label="View Git"
             >
