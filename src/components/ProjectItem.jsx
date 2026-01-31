@@ -22,9 +22,6 @@ const ProjectItem = ({ title, backgroundImg, projectUrl }) => {
           <p className="pb-4 pt-2 text-white text-center">
             React JS / Full Stack
           </p>
-          {/* <p className="text-center text-gray-800 font-bold text-lg cursor-pointer">
-            More Info
-          </p> */}
         </div>
       </Link>
     </div>
