@@ -99,7 +99,7 @@ const Main = () => {
         </div>
 
         <div className="relative w-full lg:w-1/2 order-1 lg:order-2 flex justify-center items-center">
-          <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-[500px] lg:h-[500px]">
+          <div className="relative w-64 h-64 sm:w-96 sm:h-96 lg:w-[500px] lg:h-[500px]">
             <div
               className="absolute inset-0 flex items-center justify-center"
               style={{
@@ -118,7 +118,7 @@ const Main = () => {
                 priority
               />
             </div>
-            <div className="hidden sm:block">
+            <div className="hidden lg:block">
               <Image
                 className="z-0 rounded-xl opacity-2"
                 src={background}
