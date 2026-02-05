@@ -43,8 +43,8 @@ const Main = () => {
       id="home"
       className="w-full text-center lg:h-screen mb-2 pt-20 sm:pt-24"
     >
-      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
-        <div>
+      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex flex-col lg:flex-row justify-center items-center">
+        <div className="w-full lg:w-1/2">
           <p className="uppercase text-sm tracking-widest text-[#070400] dark:text-slate-200 animate-moveInRight">{`LET'S TURN DATA INTO IMPACT`}</p>
           <h1 className="py-4 text-[#070400] dark:text-slate-100">
             Hi, I&#39;m{" "}
@@ -57,14 +57,15 @@ const Main = () => {
             A Data Analyst
           </h1>
           <p className="py-4 text-[#070400] max-w-[70%] m-auto dark:text-slate-200">
-            I help teams turn complex data into clear, actionable insights,
-            combining my Biostatistics Master&#39;s with a healthcare analytics
-            background to inform high-impact decisions. Whether building data
-            pipelines, creating visualizations that make health data
-            understandable to the public, or translating analysis into
-            actionable recommendations for stakeholders, I pair data with
-            strategy and heart. What drives me? Using data to create measurable
-            social impact and seeing insights spark real change.
+            I help teams turn complex data into actionable insights that drive
+            decisions. With a Master&#39;s in Biostatistics and a healthcare
+            analytics background, I build data pipelines, create visualizations
+            that make data accessible, and translate analysis into strategic
+            recommendations.
+          </p>
+          <p>
+            What drives me? Using data to create measurable impact and seeing
+            insights spark real change.
           </p>
           <div className="flex items-center justify-between max-w-[350px] m-auto py-4">
             <a
@@ -96,33 +97,36 @@ const Main = () => {
             <div>{renderThemeChanger()}</div>
           </div>
         </div>
-        <div className="relative">
-          <div
-            className="absolute inset-0 flex items-center justify-center"
-            style={{
-              borderRadius: "50%",
-              overflow: "hidden",
-              width: "70%",
-              height: "70%",
-              margin: "15%",
-            }}
-          >
-            <Image
-              src={photo}
-              alt="photo of Ali"
-              width="650"
-              height="650"
-              priority
-            />
-          </div>
-          <div className="hidden sm:block">
-            <Image
-              className="z-0 rounded-xl opacity-2"
-              src={background}
-              alt="photo of trees/plants"
-              width="2000"
-              height="2000"
-            />
+
+        <div className="relative w-full lg:w-1/2 order-1 lg:order-2 flex justify-center items-center">
+          <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-[500px] lg:h-[500px]">
+            <div
+              className="absolute inset-0 flex items-center justify-center"
+              style={{
+                borderRadius: "50%",
+                overflow: "hidden",
+                width: "70%",
+                height: "70%",
+                margin: "15%",
+              }}
+            >
+              <Image
+                src={photo}
+                alt="photo of Ali"
+                width="650"
+                height="650"
+                priority
+              />
+            </div>
+            <div className="hidden sm:block">
+              <Image
+                className="z-0 rounded-xl opacity-2"
+                src={background}
+                alt="photo of trees/plants"
+                width="2000"
+                height="2000"
+              />
+            </div>
           </div>
         </div>
       </div>
