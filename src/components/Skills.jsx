@@ -10,7 +10,7 @@ import numpyImg from "../skills/numpy.svg";
 import sqlImg from "../skills/sql.png";
 import dbtImg from "../skills/dbt.svg";
 import tableauImg from "../skills/tableau.png";
-import matplotlibImg from "../skills/matplotlib.png";
+import sklearnImg from "../skills/scikit-learn.png";
 import plotlyImg from "../skills/plotly.svg";
 import excelImg from "../skills/excel.png";
 import jupyterImg from "../skills/jupyter.svg";
@@ -273,23 +273,23 @@ const Skills = () => {
 
           <div className="p-6 border-2 border-transparent hover:border-[#8B5A2B] dark:hover:border-slate-400 shadow-shadow-enhanced-light dark:shadow-shadow-light-white rounded-xl hover:scale-105 ease-in duration-300">
             <a
-              href="https://matplotlib.org/"
+              href="https://scikit-learn.org/stable/"
               // target="_blank"
               rel="noopener noreferrer"
-              aria-label="View Matplotlib"
+              aria-label="View Scikit-learn"
             >
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src={matplotlibImg}
-                    width={30}
-                    height={30}
-                    alt="Logo for Matplotlib"
+                    src={sklearnImg}
+                    width="64px"
+                    height="64px"
+                    alt="Logo for Scikit-learn"
                     className="skill-icon"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <h3>MATPLOTLIB</h3>
+                  <h3>SCIKIT-LEARN</h3>
                 </div>
               </div>
             </a>
