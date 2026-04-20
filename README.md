@@ -130,7 +130,7 @@ Ali Nix | [![LinkedIn][linkedin-shield]][linkedin-url1]
 [Next-shield]: https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Vercel-shield]: https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url1]: https://www.linkedin.com/in/ali-nix-38b9b9126/
+[linkedin-url1]: https://www.linkedin.com/in/ali-nix/
 [Nextjs]: https://nextjs.org/
 [TailwindCSS]: https://tailwindcss.com/
 [Jestjs]: https://jestjs.io/
