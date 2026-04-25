@@ -42,8 +42,8 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     src={pythonImg}
-                    width={30}
-                    height={30}
+                    width={48}
+                    height={48}
                     alt="Logo for Python"
                     className="skill-icon"
                   />
@@ -66,8 +66,8 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     src={sqlImg}
-                    width={30}
-                    height={30}
+                    width={48}
+                    height={48}
                     alt="Logo for SQL"
                     className="skill-icon"
                   />
@@ -90,8 +90,8 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     src={pandasImg}
-                    width="64px"
-                    height="64px"
+                    width={48}
+                    height={48}
                     alt="Logo for Pandas"
                     className="skill-icon"
                   />
@@ -114,8 +114,8 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     src={numpyImg}
-                    width="64px"
-                    height="64px"
+                    width={48}
+                    height={48}
                     alt="Logo for NumPy"
                     className="skill-icon"
                   />
@@ -138,8 +138,8 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     src={tableauImg}
-                    width={30}
-                    height={30}
+                    width={48}
+                    height={48}
                     alt="Logo for Tableau"
                     className="skill-icon"
                   />
@@ -162,8 +162,8 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     src={postgresqlImg}
-                    width="64px"
-                    height="64px"
+                    width={48}
+                    height={48}
                     alt="Logo for PostgreSQL"
                     className="skill-icon"
                   />
@@ -186,8 +186,8 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     src={snowflakeImg}
-                    width="64px"
-                    height="64px"
+                    width={48}
+                    height={48}
                     alt="Logo for Snowflake"
                     className="skill-icon"
                   />
@@ -210,8 +210,8 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     src={bigqueryImg}
-                    width="64px"
-                    height="64px"
+                    width={48}
+                    height={48}
                     alt="Logo for BigQuery"
                     className="skill-icon"
                   />
@@ -234,8 +234,8 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     src={dbtImg}
-                    width={30}
-                    height={30}
+                    width={48}
+                    height={48}
                     alt="Logo for dbt"
                     className="skill-icon"
                   />
@@ -258,8 +258,8 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     src={awsImg}
-                    width={30}
-                    height={30}
+                    width={48}
+                    height={48}
                     alt="Logo for AWS"
                     className="skill-icon"
                   />
@@ -282,14 +282,14 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     src={sklearnImg}
-                    width={45}
-                    height={45}
+                    width={48}
+                    height={48}
                     alt="Logo for Scikit-learn"
                     className="skill-icon"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <h3>SCIKIT-LEARN</h3>
+                  <h3>SKLEARN</h3>
                 </div>
               </div>
             </a>
@@ -306,8 +306,8 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     src={plotlyImg}
-                    width="64px"
-                    height="64px"
+                    width={48}
+                    height={48}
                     alt="Logo for Plotly"
                     className="skill-icon"
                   />
@@ -330,8 +330,8 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     src={excelImg}
-                    width={30}
-                    height={30}
+                    width={48}
+                    height={48}
                     alt="Logo for Excel"
                     className="skill-icon"
                   />
@@ -354,14 +354,14 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     src={jupyterImg}
-                    width="64px"
-                    height="64px"
+                    width={48}
+                    height={48}
                     alt="Logo for Jupyter Notebook"
                     className="skill-icon"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <h3>JUPYTER NOTEBOOK</h3>
+                  <h3>JUPYTER</h3>
                 </div>
               </div>
             </a>
@@ -378,8 +378,8 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     src={gitImg}
-                    width="64px"
-                    height="64px"
+                    width={48}
+                    height={48}
                     alt="Logo for Git"
                     className="skill-icon"
                   />
