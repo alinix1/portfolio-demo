@@ -4,6 +4,7 @@ import project1 from "../projects/project1.png";
 import project2 from "../projects/project2.png";
 import project3 from "../projects/project3.png";
 import project4 from "../projects/project4.png";
+import project5 from "../projects/project5.png";
 
 const Projects = () => {
   return (
@@ -14,6 +15,16 @@ const Projects = () => {
         </p>
         <h2 className="py-4">{`What I've Built`}</h2>
         <div className="grid md:grid-cols-2 gap-8">
+          {/* Data analytics projects  */}
+          <div className="project-card rounded-lg overflow-hidden">
+            <ProjectItem
+              title="Primary Care Shortage Analysis"
+              backgroundImg={project5}
+              projectUrl="/pcp"
+              category="Python / SQL / Analytics"
+            />
+          </div>
+          {/* Web development projects */}
           <div className="project-card rounded-lg overflow-hidden">
             <ProjectItem
               title="Health Equity Tracker"

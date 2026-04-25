@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const ProjectItem = ({ title, backgroundImg, projectUrl }) => {
+const ProjectItem = ({ title, backgroundImg, projectUrl, category }) => {
   return (
     <div className="relative flex items-center justify-center h-auto w-full group hover:bg-gradient-to-r from-[#272A21] to-[#332115] project-card">
       <div className="relative w-full h-[300px]">
@@ -20,7 +20,7 @@ const ProjectItem = ({ title, backgroundImg, projectUrl }) => {
             {title}
           </h3>
           <p className="pb-4 pt-2 text-white text-center">
-            React JS / Full Stack
+            {category ? category : "React JS / Full Stack"}
           </p>
         </div>
       </Link>

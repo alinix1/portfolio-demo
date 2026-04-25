@@ -19,7 +19,8 @@ const Navbar = () => {
       router.asPath === "/news" ||
       router.asPath === "/beats" ||
       router.asPath === "/het" ||
-      router.asPath === "/holistic"
+      router.asPath === "/holistic" ||
+      router.asPath === "/pcp"
     ) {
       setNavBg("rgba(0, 0, 0, 0.5)");
       setLinkColor("#ecf0f3");

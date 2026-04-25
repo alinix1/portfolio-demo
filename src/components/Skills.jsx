@@ -282,8 +282,8 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     src={sklearnImg}
-                    width="64px"
-                    height="64px"
+                    width={45}
+                    height={45}
                     alt="Logo for Scikit-learn"
                     className="skill-icon"
                   />
