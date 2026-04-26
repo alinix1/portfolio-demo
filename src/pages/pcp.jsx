@@ -71,7 +71,7 @@ const primarycareshortage = () => {
             </div>
           </div>
           <a
-            href="/#"
+            href="https://github.com/alinix1/primary-care-shortage-analysis"
             target="_blank"
             rel="noreferrer"
             aria-label="View Code Primary Care Shortage Analysis"
@@ -79,7 +79,7 @@ const primarycareshortage = () => {
             <button className="project-btn px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="/#"
+            href="https://github.com/alinix1/primary-care-shortage-analysis/blob/master/jupyter-notebooks/primary_care_shortage_analysis.ipynb"
             target="_blank"
             rel="noreferrer"
             aria-label="View Jupyter Notebook Primary Care Shortage Analysis"
