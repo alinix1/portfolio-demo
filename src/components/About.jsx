@@ -16,7 +16,7 @@ const About = () => {
             <p className="mb-4">
               I am a Data Analyst with a Master of Public Health in
               Biostatistics and software development experience, combining data
-              science, analytics, and healthcare expertise to turn complex data
+              science, analytics, and healthcare knowledge to turn complex data
               into actionable insights that improve lives.
             </p>
             <p className="mb-4">
@@ -30,7 +30,7 @@ const About = () => {
             </p>
             <p className="mb-4">
               I combine strong statistical foundations from my MPH, technical
-              skills in SQL and Python, and healthcare domain expertise. The
+              skills in SQL and Python, and healthcare domain knowledge. The
               technical skills I gained along the way—data engineering,
               full-stack development—make me a stronger analyst who understands
               how data systems work end-to-end.
