@@ -51,6 +51,14 @@ const primarycareshortage = () => {
                 <li className="flex items-start">
                   <span className="mr-2">•</span>
                   <span>
+                    Built interactive Plotly Dash dashboard visualizing shortage
+                    severity, disease burden, and preventable hospitalizations,
+                    including a KPI summary row with a custom dark theme.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>
                     Identified poverty rate {""}
                     <strong className="dark:text-emerald-300">
                       (r=0.34)

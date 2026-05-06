@@ -9,7 +9,7 @@ const resume = () => {
         <title>Ali | Resume</title>
         <meta
           name="description"
-          content={`I'm a front-end software developer specializing in building (and occasionally designing) exceptional digital experiences.`}
+          content={`I am a Data Analyst with a Master of Public Health in Biostatistics and software development experience, combining applied data science, analytics, and healthcare knowledge to turn complex data into actionable insights that improve lives.`}
         />
       </Head>
       <div className="w-full overflow-hidden p-2 pt-[120px]">
@@ -20,7 +20,7 @@ const resume = () => {
           </h2>
           <div className="flex dark:text-slate-950">
             <a
-              href="https://www.linkedin.com/in/ali-nix-38b9b9126/"
+              href="https://www.linkedin.com/in/ali-nix/"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
@@ -53,7 +53,7 @@ const resume = () => {
           </div>
         </div>
         <p>
-          {`I am a Data Analyst with a Master of Public Health in Biostatistics and software development experience, combining data science, analytics, and healthcare expertise to turn complex data into actionable insights that improve lives.`}
+          {`I am a Data Analyst with a Master of Public Health in Biostatistics and software development experience, combining applied data science, analytics, and healthcare knowledge to turn complex data into actionable insights that improve lives.`}
         </p>
         <div className="text-center py-4">
           <h5 className="text-center underline text-[18px] py-2">
@@ -158,15 +158,15 @@ const resume = () => {
             <span className="px-2">|</span>Remote
           </p>
           <p className="py-1 italic">
-            Data & Software Engineering Intern/Software Engineering and
+            Data Analyst/Software Engineering Intern/Software Engineering and
             Education Development (SEED) Program (11/2023 - present)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
               Built ETL data pipelines using Python and Pandas to extract,
-              transform, and load maternal mortality data from multiple sources
-              into BigQuery, streamlining data processing workflows and
-              supporting reporting and analysis needs.
+              transform, and load maternal mortality data spanning 25+ years
+              from multiple sources into BigQuery, streamlining data processing
+              workflows and supporting reporting and analysis needs.
             </li>
             <li>
               Queried BigQuery data using SQL to identify health disparities
@@ -176,7 +176,8 @@ const resume = () => {
               Refactored data visualizations from Vega to D3, reducing
               dependencies by 8.6% and package size by 30%, improving
               performance and enabling policymakers and researchers to interpret
-              health equity metrics more effectively.
+              health equity metrics more effectively - now accessible to 85,000+
+              annual platform viewers.
             </li>
             <li>
               Integrated new public health datasets through frontend development
@@ -188,9 +189,10 @@ const resume = () => {
               functionality and code quality.
             </li>
             <li>
-              Collaborated cross-functionally with the team regarding
-              engineering requirements and data pipeline needs to ensure data
-              tracking product aligned with client goals.
+              Collaborated cross-functionally with engineering and public health
+              teams as part of a pilot cohort that contributed 78 production
+              commits to an active open-source codebase, ensuring data pipeline
+              outputs aligned with health equity research and policy objectives.
             </li>
           </ul>
         </div>
