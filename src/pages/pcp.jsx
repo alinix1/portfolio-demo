@@ -41,14 +41,11 @@ const primarycareshortage = () => {
                 <li className="flex items-start">
                   <span className="mr-2">•</span>
                   <span>
-                    Engineered composite vulnerability scoring model and HPSA
-                    severity tiering across
-                    <strong className="dark:text-emerald-300">
-                      {" "}
-                      2,957
-                    </strong>{" "}
-                    {""}
-                    US counties.
+                    Engineered
+                    <strong className="dark:text-emerald-300"> 10+</strong> {""}
+                    derived variables across dbt staging, intermediate, and mart
+                    layers; performed data quality validation checks via dbt
+                    generic tests on staging models.
                   </span>
                 </li>
                 <li className="flex items-start">
