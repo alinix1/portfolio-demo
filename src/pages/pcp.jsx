@@ -22,7 +22,7 @@ const primarycareshortage = () => {
         <div className="col-span-4 space-y-4 py-8">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>{`A multi-source data analytics project — encompassing ETL pipeline, data warehouse, and interactive dashboard — examining how primary care shortages correlate with chronic disease burden and preventable hospitalizations across US counties.`}</p>
+          <p>{`A multi-source data analytics project encompassing ETL pipeline, data warehouse, and interactive dashboard. Examining how primary care shortages correlate with chronic disease burden and preventable hospitalizations across US counties.`}</p>
           <div className="project-details space-y-10">
             <div className="technical-highlights space-y-6 border-l-4 border-gray-700 pl-4">
               <h4 className="text-xl font-medium mb-4">Technical Highlights</h4>
