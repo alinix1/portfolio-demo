@@ -51,9 +51,10 @@ const primarycareshortage = () => {
                 <li className="flex items-start">
                   <span className="mr-2">•</span>
                   <span>
-                    Built interactive Plotly Dash dashboard visualizing shortage
-                    severity, disease burden, and preventable hospitalizations,
-                    including a KPI summary row with a custom dark theme.
+                    Developed interactive Plotly Dash dashboard visualizing
+                    shortage severity, disease burden, and preventable
+                    hospitalizations, including a KPI summary row with a custom
+                    dark theme.
                   </span>
                 </li>
                 <li className="flex items-start">
@@ -61,15 +62,27 @@ const primarycareshortage = () => {
                   <span>
                     Identified poverty rate {""}
                     <strong className="dark:text-emerald-300">
-                      (r=0.34)
+                      (r=0.33)
                     </strong>{" "}
                     and high disease burden counties {""}
                     <strong className="dark:text-emerald-300">
-                      (average 481.9 excess stays above the national average)
+                      (average 482 excess stays above the national average)
                     </strong>{" "}
                     {""}
-                    as strongest predictors of preventable hospitalizations via
-                    Pearson correlation analysis.
+                    as strongest predictors of preventable hospitalizations.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>
+                    Conducted exploratory data analysis and inferential
+                    statistical testing in Python (summary statistics,
+                    correlations, t-tests, ANOVA, chi-squared), and SQL analyses
+                    to answer{" "}
+                    <strong className="dark:text-emerald-300">5</strong>{" "}
+                    research questions across{" "}
+                    <strong className="dark:text-emerald-300">2,957</strong> US
+                    counties.
                   </span>
                 </li>
               </ul>
@@ -109,6 +122,10 @@ const primarycareshortage = () => {
               <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 SQL
+              </p>
+              <p className="text-black dark:text-white py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Python
               </p>
               <p className="text-black dark:text-white py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
