@@ -8,8 +8,8 @@ import project5 from "../projects/project5.png";
 
 const Projects = () => {
   return (
-    <div id="projects" className="w-full mt-8 md:mt-20 lg:mt-32 mb-8 md:mb-20">
-      <div className="max-w-[1100px] mx-auto px-4 md:px-2">
+    <div id="projects" className="w-full mt-16 mb-16">
+      <div className="max-w-[1240px] mx-auto px-2">
         <p className=" text-xl tracking-widest uppercase text-[#070400] dark:text-slate-300">
           Projects
         </p>

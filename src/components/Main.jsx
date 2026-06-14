@@ -57,15 +57,10 @@ const Main = () => {
             A Data Analyst
           </h1>
           <p className="py-4 text-[#070400] max-w-[70%] m-auto dark:text-slate-200">
-            I help teams turn complex data into actionable insights that drive
-            decisions. With a Master&#39;s in Biostatistics and a healthcare
-            analytics background, I build data pipelines, create visualizations
-            that make data accessible, and translate analysis into strategic
-            recommendations.
-          </p>
-          <p>
-            What drives me? Using data to create measurable impact and seeing
-            insights spark real change.
+            Public health data professional with an MPH in Biostatistics and
+            hands-on experience building data pipelines and visualizations for a
+            health equity tracker platform. Committed to using data to drive
+            meaningful health outcomes and inform public health policy.
           </p>
           <div className="flex items-center justify-between max-w-[350px] m-auto py-4">
             <a

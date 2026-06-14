@@ -4,36 +4,38 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div id="about" className="w-full p-2 py-16 md:py-24 flex items-center">
+    <div id="about" className="w-full p-2 py-16 pb-8 flex items-center">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#070400] dark:text-slate-300">
             About
           </p>
           <h2 className="py-4">Who I am</h2>
-          <p className="py-2 text-[#070400] dark:text-slate-300 font-bold">{`// Healthcare & Environmental Analytics`}</p>
+          <p className="py-2 text-[#070400] dark:text-slate-300 font-bold">{`// Healthcare & Public Health Analytics`}</p>
           <div className="py-2 text-[#070400] dark:text-slate-300">
             <p className="mb-4">
-              I am a Data Analyst with a Master of Public Health in
-              Biostatistics and software development experience, combining data
-              science, analytics, and healthcare knowledge to turn complex data
-              into actionable insights that improve lives.
+              I am a Data Professional / Analyst with a Master of Public Health
+              in Biostatistics and software development experience, combining
+              applied data science, analytics, and public health knowledge to
+              turn complex data into actionable insights that improve lives.
             </p>
             <p className="mb-4">
               After grad school, I explored different applications of data—from
-              data science and ML to full-stack development—to understand where
-              my skills fit best. Through this exploration, especially my work
-              at Health Equity Tracker building ETL pipelines and analyzing
-              public health data with SQL and Python, I realized my passion is
-              data analysis: extracting insights from complex datasets and
-              communicating findings that drive decisions.
+              data science and ML to full-stack development in order to
+              understand where my skills fit best. Through this exploration,
+              especially my work at Health Equity Tracker building ETL pipelines
+              and analyzing public health data with SQL and Python, I realized
+              my passion leans more towards data analysis: extracting insights
+              from complex datasets and communicating findings that drive
+              decisions.
             </p>
             <p className="mb-4">
               I combine strong statistical foundations from my MPH, technical
-              skills in SQL and Python, and healthcare domain knowledge. The
-              technical skills I gained along the way—data engineering,
-              full-stack development—make me a stronger analyst who understands
-              how data systems work end-to-end.
+              skills in SQL and Python, and epidemiological and public health
+              domain knowledge. The technical skills I gained along the way,
+              including data engineering and full-stack development, make me a
+              stronger data professional who understands how data systems work
+              end-to-end.
             </p>
           </div>
           <p className="py-2 text-[#070400] dark:text-slate-300 font-bold">

@@ -10,8 +10,8 @@ import { HiDownload } from "react-icons/hi";
 
 const Contact = () => {
   return (
-    <div id="contact" className="w-full lg:h-screen">
-      <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
+    <div id="contact" className="w-full mt-16 lg:h-screen">
+      <div className="max-w-[1240px] m-auto px-2 pt-0 pb-16 w-full">
         <p className="text-xl tracking-widest uppercase text-[#070400] dark:text-slate-300">
           Contact
         </p>
@@ -30,8 +30,8 @@ const Contact = () => {
                 <h2 className="py-2">Ali Nix</h2>
                 <p className="uppercase">Data Analyst</p>
                 <p className="py-4 block text-2xl font-bold tracking-widest">
-                  I am available for full-time and contract positions. Contact
-                  me and let&apos;s talk.
+                  I am available for full-time, part-time, and contract
+                  positions. Contact me and let&apos;s talk.
                 </p>
                 <a
                   href="/Ali_Nix_Data_Analyst_Resume.pdf"

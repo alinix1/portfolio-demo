@@ -18,16 +18,11 @@ import Image from "next/image";
 
 const Skills = () => {
   return (
-    <div
-      id="skills"
-      className="w-full mt-20 md:mt-24 lg:mt-32 mb-20 max-w-[1240px] mx-auto px-2"
-    >
-      <div className="md:mb-12">
-        <p className="text-xl tracking-widest uppercase text-[#070400] dark:text-slate-300">
-          Skills
-        </p>
-        <h2 className="py-4 md:m-0">What I Can Do</h2>
-      </div>
+    <div id="skills" className="w-full mt-8 mb-8 max-w-[1240px] mx-auto px-2">
+      <p className="text-xl tracking-widest uppercase text-[#070400] dark:text-slate-300">
+        Skills
+      </p>
+      <h2 className="py-4 md:m-0">What I Can Do</h2>
 
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <div className="grid xs: grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
