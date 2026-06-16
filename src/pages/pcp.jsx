@@ -64,12 +64,10 @@ const primarycareshortage = () => {
                     <strong className="dark:text-emerald-300">
                       (r=0.33)
                     </strong>{" "}
-                    and high disease burden counties {""}
-                    <strong className="dark:text-emerald-300">
-                      (average 482 excess stays above the national average)
-                    </strong>{" "}
-                    {""}
-                    as strongest predictors of preventable hospitalizations.
+                    and high disease burden counties average {""}
+                    <strong className="dark:text-emerald-300">482</strong> {""}
+                    excess stays above the national average as strongest
+                    predictors of preventable hospitalizations.
                   </span>
                 </li>
                 <li className="flex items-start">
@@ -81,7 +79,7 @@ const primarycareshortage = () => {
                     to answer{" "}
                     <strong className="dark:text-emerald-300">5</strong>{" "}
                     research questions across{" "}
-                    <strong className="dark:text-emerald-300">2,957</strong> US
+                    <strong className="dark:text-emerald-300">3,144</strong> US
                     counties.
                   </span>
                 </li>
