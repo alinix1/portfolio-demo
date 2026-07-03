@@ -62,7 +62,7 @@ const primarycareshortage = () => {
                   <span>
                     Identified poverty rate {""}
                     <strong className="dark:text-emerald-300">
-                      (r=0.33)
+                      (r=0.35)
                     </strong>{" "}
                     and high disease burden counties average {""}
                     <strong className="dark:text-emerald-300">482</strong> {""}

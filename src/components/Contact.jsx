@@ -34,7 +34,7 @@ const Contact = () => {
                   positions. Contact me and let&apos;s talk.
                 </p>
                 <a
-                  href="/Ali_Nix_Data_Analyst_Resume.pdf"
+                  href="/Ali_Nix_Resume.pdf"
                   download
                   className="inline-flex items-center gap-2 px-6 py-3 mt-4
                   bg-[#272A21] dark:bg-slate-700 text-white rounded-lg
